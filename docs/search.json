@@ -1,0 +1,1242 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "",
+    "text": "프로젝트 개요\n최종 업데이트: 2026-03-31",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "index.html#연구-제목",
+    "href": "index.html#연구-제목",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "연구 제목",
+    "text": "연구 제목\nSME-Transformation: K-하이테크 플랫폼 중소기업 디지털 전환 교육 효과 분석\nFrom Digital Shift to Workforce Shift: A Field-Based HRD Model for SME Transformation",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "index.html#연구-목적",
+    "href": "index.html#연구-목적",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "연구 목적",
+    "text": "연구 목적\nK-하이테크 플랫폼의 4개년(2022~2025) 중소기업 디지털 전환 컨설팅 및 교육훈련 데이터를 활용하여, 중소기업의 DT 준비도, 교육훈련 효과, 그리고 조직 역량 변화를 다각적으로 분석한다.",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "index.html#데이터",
+    "href": "index.html#데이터",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "데이터",
+    "text": "데이터\n\n\n\n항목\n내용\n\n\n\n\n기간\n2022~2025년 (4개년)\n\n\n총 레코드\n282건\n\n\n참여 기업\n219개사\n\n\n변수\n166개\n\n\n복수참여 기업\n48개사 (111건, 패널 분석 가능)\n\n\n주요 업종\n기계금속(72%), 전기전자(16%)",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "index.html#분석-체계-13개-분석-트랙",
+    "href": "index.html#분석-체계-13개-분석-트랙",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "분석 체계: 13개 분석 트랙",
+    "text": "분석 체계: 13개 분석 트랙\n\n\n\n트랙\n분석 내용\n방법론\n\n\n\n\nT0\n탐색적 분석\n기술통계, 상관, EFA, 집단비교\n\n\nT1\n회귀/요인 분석\n위계적 회귀, CFA, 과정유형 비교\n\n\nT2\n잠재 프로파일\nLPA (tidyLPA/mclust), 3-class\n\n\nT3\n질적비교분석\nfsQCA, 8개 충분 경로\n\n\nT4\n종단 분석\n대응표본 t-test, 변화 궤적\n\n\nT5\n텍스트 분석\nSTM (k=7), 11개 공변량\n\n\nT6\n네트워크 분석\n공동출현, MCA, 연관규칙\n\n\nT7\nIPA 갭분석\n중요도-성과 분석, 4사분면\n\n\nT8-1\n패널 회귀\nPooled OLS, RE, FE, Hausman\n\n\nT8-2-1\nPSM (DT교육경험)\n성향점수매칭\n\n\nT8-2-2\nPSM (SF도입)\n성향점수매칭\n\n\nT8-2-3\nPSM (복수참여)\n성향점수매칭",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "index.html#핵심-발견-7대-발견",
+    "href": "index.html#핵심-발견-7대-발견",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "핵심 발견 (7대 발견)",
+    "text": "핵심 발견 (7대 발견)\n\nDT 준비도와 교육효과의 비선형 관계: DT 인식 수준과 교육 효과(Q3 전후차이) 간 상관이 매우 약하거나 무의미(r = -.13~+.08). 단순 회귀로는 설명 불가하며, 조건 조합적 접근(QCA) 필요.\n3유형 잠재 프로파일 확인: LPA 결과 “DT 미인식형”, “인식-미실행형”, “적극 전환형” 3개 프로파일 도출 (Entropy = 0.846). 프로파일별 교육 효과 차별적.\n등결과성(Equifinality) 입증: QCA에서 높은 교육효과를 달성하는 8개 충분 경로 확인. 동일 결과에 도달하는 다양한 조건 조합 존재.\n반복참여의 누적 효과: 복수참여 기업의 교육훈련수준 평균 +0.77 향상(d=0.60, 중간 효과크기). 단, 평균 회귀(regression to mean) 효과 통제 필요.\nDT 애로사항의 7대 토픽 구조: STM 분석 결과 제조현장 장벽, 데이터 역량 부족, 디지털 인재 확보, 기존 인력 저항, 스마트팩토리 구축, 품질관리, 교육 실효성의 7개 토픽 도출.\n기술수요 네트워크의 고밀도 구조: 밀도 0.719의 고밀도 네트워크. 빅데이터(62.4%)가 허브 기술로 작동. 빅데이터+사물인터넷(52건) 최다 공동출현.\n교육훈련 필요성-수준 갭: IPA 분석에서 교육필요성(M=4.36) vs 교육수준(M=2.52) = 1.84점 갭. 5점 척도에서 매우 큰 갭으로, “높은 필요성 + 낮은 수준” = 집중개선 영역.",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "index.html#프로젝트-현황",
+    "href": "index.html#프로젝트-현황",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "프로젝트 현황",
+    "text": "프로젝트 현황\n\n\n\n단계\n상태\n\n\n\n\nPhase 0: 프로젝트 초기화\n완료 (2026-03-24)\n\n\nPhase 1: 데이터 전처리\n완료 (2026-03-27)\n\n\nPhase 2: 연구 설계 및 분석\n완료 (2026-03-28)\n\n\nPhase 3: 보고서 작성\n완료 (2026-03-28)\n\n\nPhase 4: 1차 분석 라운드 (T0~T8)\n완료 (2026-03-29)\n\n\nPhase 5: DID 분석 (T10)\n완료 (2026-03-31)\n\n\nPhase 6: 독립 분석 (T11~T21)\n완료 (2026-03-31)\n\n\nPhase 7: 논문 주제 조율\n대기 (교수 미팅 후)\n\n\nPhase 8: 문헌 리뷰\n대기\n\n\nPhase 9: 글쓰기\n대기\n\n\nPhase 10: 저널 투고\n대기",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "index.html#분석-성과-요약",
+    "href": "index.html#분석-성과-요약",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "분석 성과 요약",
+    "text": "분석 성과 요약\n\n16개 QMD 보고서 x 4개 포맷 = 64개 파일 생성\n35개 가설 검증: 14개 채택, 14개 기각, 5개 역방향, 2개 경계\n5대 교차 패턴 발견\nT10 DID 분석: 12개 모델, R 스크립트 4,500+ 라인\n11개 독립 R 프로젝트 (T11~T21) 분리 완료",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "index.html#연구진",
+    "href": "index.html#연구진",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "연구진",
+    "text": "연구진\n\n오너: 정동열 교수\n멤버: 나태희\n분석: Chungil (Chad) Chae, Ph.D.",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "Citation",
+    "text": "Citation\n\nAASVET 발표: “From Digital Shift to Workforce Shift: A Field-Based HRD Model for SME Transformation”",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "index.html#acknowledgement",
+    "href": "index.html#acknowledgement",
+    "title": "SME-Transformation: K-하이테크 플랫폼 연구",
+    "section": "Acknowledgement",
+    "text": "Acknowledgement\n\nK-하이테크 플랫폼 데이터 제공",
+    "crumbs": [
+      "프로젝트 개요"
+    ]
+  },
+  {
+    "objectID": "rl_research_log.html",
+    "href": "rl_research_log.html",
+    "title": "연구 로그",
+    "section": "",
+    "text": "2026-03-28: 분석 완료 및 보고서 작성",
+    "crumbs": [
+      "Research Logs",
+      "연구 로그"
+    ]
+  },
+  {
+    "objectID": "rl_research_log.html#분석-완료-및-보고서-작성",
+    "href": "rl_research_log.html#분석-완료-및-보고서-작성",
+    "title": "연구 로그",
+    "section": "",
+    "text": "13개 분석 트랙(T0~T8) 전체 분석 완료\n13개 R 프로젝트 구성 (총 4,362 lines)\n16개 QMD 보고서 렌더링 (각 4포맷: HTML/PDF/DOCX/MD = 64개 파일)\n종합해석 및 판단 문서 작성\n1차 임시분석 보고서 (apaquarto 형식) 작성\n1차 임시분석 보고서 해설본 (narrative 형식) 작성\nQuarto Book (public/) 업데이트: Analysis Results 파트 추가\n\n\n분석 트랙 완료 순서\n\n\n\n순서\n트랙\n내용\n\n\n\n\n1\nT0\n탐색적 분석 (기술통계, 상관, EFA, 집단비교)\n\n\n2\nT1\n회귀/요인 분석 (CFA, 위계적 회귀, 과정유형 비교)\n\n\n3\nT7\nIPA 갭분석 (중요도-성과, 7영역 레이더)\n\n\n4\nT2\nLPA (3-class, Entropy=0.846)\n\n\n5\nT3\nQCA (8개 충분 경로, 등결과성)\n\n\n6\nT4\n종단분석 (대응표본 t, 궤적 유형화)\n\n\n7\nT5\nSTM (k=7, 11개 공변량)\n\n\n8\nT6\n네트워크 (밀도 0.719, MCA, 연관규칙)\n\n\n9\nT8-1\n패널회귀 (Pooled OLS, RE, FE, Hausman)\n\n\n10\nT8-2-1\nPSM: DT교육경험\n\n\n11\nT8-2-2\nPSM: SF도입\n\n\n12\nT8-2-3\nPSM: 복수참여\n\n\n13\n종합\n종합해석, 1차 보고서, 해설본",
+    "crumbs": [
+      "Research Logs",
+      "연구 로그"
+    ]
+  },
+  {
+    "objectID": "rl_research_log.html#데이터-전처리-완료",
+    "href": "rl_research_log.html#데이터-전처리-완료",
+    "title": "연구 로그",
+    "section": "2026-03-27: 데이터 전처리 완료",
+    "text": "2026-03-27: 데이터 전처리 완료\n\n4개년(2022~2025) 통합 데이터셋 생성: 282건 x 166열\n기업고유코드 부여 (KHT-0001~KHT-0219, 사업자등록번호 기준)\n기업명 정규화 ((주)/㈜ 통일 등 19건)\n코드북 v2 생성 (166개 변수)\n데이터 현황보고 작성\n데이터 품질 이슈 문서화 (사명변경 3건, 수행일자 오류 1건)\n통합 스크립트 v1~v3 순차 개발",
+    "crumbs": [
+      "Research Logs",
+      "연구 로그"
+    ]
+  },
+  {
+    "objectID": "rl_research_log.html#프로젝트-초기화",
+    "href": "rl_research_log.html#프로젝트-초기화",
+    "title": "연구 로그",
+    "section": "2026-03-24: 프로젝트 초기화",
+    "text": "2026-03-24: 프로젝트 초기화\n\n프로젝트 폴더 구조 생성\n기존자료 정리 (원본 Excel, 배경논문, 관련 서식)\nPM Master 연동 설정\nREADME.md 작성\n연구 배경 확인 (AASVET 발표, 관련 논문)",
+    "crumbs": [
+      "Research Logs",
+      "연구 로그"
+    ]
+  },
+  {
+    "objectID": "rl_meeting_log.html",
+    "href": "rl_meeting_log.html",
+    "title": "Meeting Log",
+    "section": "",
+    "text": "xxxx-xx-xx",
+    "crumbs": [
+      "Research Logs",
+      "Meeting Log"
+    ]
+  },
+  {
+    "objectID": "rl_meeting_log.html#xxxx-xx-xx",
+    "href": "rl_meeting_log.html#xxxx-xx-xx",
+    "title": "Meeting Log",
+    "section": "",
+    "text": "10:00-10:30: Kick-off meeting",
+    "crumbs": [
+      "Research Logs",
+      "Meeting Log"
+    ]
+  },
+  {
+    "objectID": "rl_analysis_version_log.html",
+    "href": "rl_analysis_version_log.html",
+    "title": "분석 버전 로그",
+    "section": "",
+    "text": "Version 1.0: 전체 렌더링 및 종합 (2026-03-28)",
+    "crumbs": [
+      "Research Logs",
+      "분석 버전 로그"
+    ]
+  },
+  {
+    "objectID": "rl_analysis_version_log.html#version-1.0-전체-렌더링-및-종합-2026-03-28",
+    "href": "rl_analysis_version_log.html#version-1.0-전체-렌더링-및-종합-2026-03-28",
+    "title": "분석 버전 로그",
+    "section": "",
+    "text": "16개 QMD 보고서 전체 렌더링 (4포맷 x 16 = 64개 파일)\n종합해석 및 판단 문서 작성\n1차 임시분석 보고서 (apaquarto) 작성\n1차 임시분석 보고서 해설본 (narrative) 작성\n7대 핵심 발견 도출\n3편 논문 추천 전략 수립\n삼각검증 체계 확립",
+    "crumbs": [
+      "Research Logs",
+      "분석 버전 로그"
+    ]
+  },
+  {
+    "objectID": "rl_analysis_version_log.html#version-0.4-t7-ipa-t8-인과추론-2026-03-28",
+    "href": "rl_analysis_version_log.html#version-0.4-t7-ipa-t8-인과추론-2026-03-28",
+    "title": "분석 버전 로그",
+    "section": "Version 0.4: T7 IPA + T8 인과추론 (2026-03-28)",
+    "text": "Version 0.4: T7 IPA + T8 인과추론 (2026-03-28)\n\nT7: IPA 갭분석 (교육필요성-수준 갭 1.84점)\nT7: 스마트시스템 7영역 연도별 레이더차트\nT8-1: 패널회귀 (Pooled OLS, RE, FE, Hausman 검정)\nT8-2-1: PSM DT교육경험 (선택편향 통제 후 효과 추정)\nT8-2-2: PSM SF도입 (선택편향 통제 후 효과 추정)\nT8-2-3: PSM 복수참여 (선택편향 통제 후 효과 추정)",
+    "crumbs": [
+      "Research Logs",
+      "분석 버전 로그"
+    ]
+  },
+  {
+    "objectID": "rl_analysis_version_log.html#version-0.3-t4-종단-t5-stm-t6-네트워크-2026-03-28",
+    "href": "rl_analysis_version_log.html#version-0.3-t4-종단-t5-stm-t6-네트워크-2026-03-28",
+    "title": "분석 버전 로그",
+    "section": "Version 0.3: T4 종단 + T5 STM + T6 네트워크 (2026-03-28)",
+    "text": "Version 0.3: T4 종단 + T5 STM + T6 네트워크 (2026-03-28)\n\nT4: 종단분석 (대응표본 t-test, 교육훈련수준 +0.77, d=0.60)\nT4: 변화 궤적 유형화 (지속성장형/초기도약형/정체형/하향형)\nT4: Spaghetti Plot, Dumbbell Plot 시각화\nT5: STM 토픽모델링 (k=7, 11개 공변량)\nT5: LPA 프로파일별 토픽 차별화 분석\nT5: 복수참여 기업 텍스트 변화 추적\nT5: 다중 텍스트 컬럼별 독립 분석 (DT애로사항, TO_BE, 성과상세, AS_IS)\nT6: 네트워크 분석 (밀도 0.719, 허브: 빅데이터)\nT6: 커뮤니티 탐지 (Louvain, 3개 군집)\nT6: MCA 다중대응분석, 연관규칙 (Apriori)",
+    "crumbs": [
+      "Research Logs",
+      "분석 버전 로그"
+    ]
+  },
+  {
+    "objectID": "rl_analysis_version_log.html#version-0.2-t1-회귀-t2-lpa-t3-qca-2026-03-28",
+    "href": "rl_analysis_version_log.html#version-0.2-t1-회귀-t2-lpa-t3-qca-2026-03-28",
+    "title": "분석 버전 로그",
+    "section": "Version 0.2: T1 회귀 + T2 LPA + T3 QCA (2026-03-28)",
+    "text": "Version 0.2: T1 회귀 + T2 LPA + T3 QCA (2026-03-28)\n\nT1: CFA (현업적용도 4구인), 위계적 회귀\nT1: 과정유형별 비교 (MES실무 Q3차이 최고 +1.93)\nT2: LPA 1~5 class 비교 → 3-class 최적 (Entropy=0.846)\nT2: 3개 프로파일 명명 (DT미인식형/인식-미실행형/적극전환형)\nT2: BCH-proxy ANOVA, mclust 교차검증\nT3: fsQCA 캘리브레이션 (fuzzy 3 + crisp 2)\nT3: 8개 충분 경로 도출 (등결과성 확인)\nT3: 강건성 검정 (consistency 기준 변동)",
+    "crumbs": [
+      "Research Logs",
+      "분석 버전 로그"
+    ]
+  },
+  {
+    "objectID": "rl_analysis_version_log.html#version-0.1-t0-탐색적-분석-2026-03-28",
+    "href": "rl_analysis_version_log.html#version-0.1-t0-탐색적-분석-2026-03-28",
+    "title": "분석 버전 로그",
+    "section": "Version 0.1: T0 탐색적 분석 (2026-03-28)",
+    "text": "Version 0.1: T0 탐색적 분석 (2026-03-28)\n\nT0: 핵심 변수 기술통계 (DV 후보: Q3차이, 현업적용도_조직환경)\nT0: 상관분석 (DT인식↔︎교육효과 약한 상관 발견)\nT0: EFA (DT인식 3항목 alpha=.861, 스마트시스템 7영역 alpha=.926)\nT0: 집단비교 (DT교육경험 → 만족도 p=.007, 연도 → 조직환경 p=.008)\nT0: IPA 갭분석 예비 (교육필요성-수준 갭 1.84점)\n의사결정 포인트: 주분석 주제 선택 근거 도출",
+    "crumbs": [
+      "Research Logs",
+      "분석 버전 로그"
+    ]
+  },
+  {
+    "objectID": "rl_draft_version_log.html",
+    "href": "rl_draft_version_log.html",
+    "title": "Draft Version",
+    "section": "",
+    "text": "Ver 0.0.1",
+    "crumbs": [
+      "Research Logs",
+      "Draft Version"
+    ]
+  },
+  {
+    "objectID": "rl_draft_version_log.html#ver-0.0.1",
+    "href": "rl_draft_version_log.html#ver-0.0.1",
+    "title": "Draft Version",
+    "section": "",
+    "text": "Starting draft",
+    "crumbs": [
+      "Research Logs",
+      "Draft Version"
+    ]
+  },
+  {
+    "objectID": "rn_ideas_and_thoughts.html",
+    "href": "rn_ideas_and_thoughts.html",
+    "title": "아이디어 및 연구 주제",
+    "section": "",
+    "text": "개요\n최종 업데이트: 2026-03-28\nK-하이테크 플랫폼 4개년 데이터(282건 x 166변수, 219기업)를 기반으로 7개 연구 주제를 도출하였다. 각 주제는 독립적인 논문 또는 학회 발표로 발전 가능하며, 주제 간 교차 분석을 통한 삼각검증이 가능하다.\n배경: “From Digital Shift to Workforce Shift” (AASVET2025, 정동열 교수)",
+    "crumbs": [
+      "Research Note",
+      "아이디어 및 연구 주제"
+    ]
+  },
+  {
+    "objectID": "rn_ideas_and_thoughts.html#주제-총괄표",
+    "href": "rn_ideas_and_thoughts.html#주제-총괄표",
+    "title": "아이디어 및 연구 주제",
+    "section": "주제 총괄표",
+    "text": "주제 총괄표\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n주제\n방법론\nn\n난이도\n학술\n실무\n차별성\n\n\n\n\n1\nDT 준비도 → 교육효과\n위계적 회귀+CFA\n282\n중\n중\n중\n낮음\n\n\n2\nDT 준비도 잠재 프로파일\nLPA+BCH\n282\n중상\n상\n중상\n높음\n\n\n3\n교육효과 조건 구성\nfsQCA\n282\n중상\n상\n상\n높음\n\n\n4\n반복참여 기업 종단변화\n대응표본+사례\n47/14\n중\n중상\n상\n중\n\n\n5\nDT 애로사항 주제분석\nSTM\n281\n중\n중상\n중상\n중상\n\n\n6\nDT 기술수요 패턴\nMCA+네트워크\n282\n중하\n중\n상\n중\n\n\n7\n교육훈련 중요도-성과 갭\nIPA+갭분석\n282\n하\n중하\n상\n낮음\n\n\n\n\n조합 전략\n\n\n\n전략\n조합\n특징\n\n\n\n\n안전 단독\n1 또는 7\n빠른 출판\n\n\n방법론 차별화\n2 또는 3\nLPA/QCA 게재 경쟁력\n\n\nMixed Methods\n1(양적) + 5(질적)\n삼각검증\n\n\n통합 논문\n2(LPA) + 3(QCA)\nPerson-centered + Configuration\n\n\n순차 시리즈\n7→1→4\n3편 파이프라인\n\n\n학회+저널 분리\n학회: 6,7 / 저널: 2,3,5\n단기+장기",
+    "crumbs": [
+      "Research Note",
+      "아이디어 및 연구 주제"
+    ]
+  },
+  {
+    "objectID": "rn_ideas_and_thoughts.html#theme-1-dt-준비도-교육훈련-효과",
+    "href": "rn_ideas_and_thoughts.html#theme-1-dt-준비도-교육훈련-효과",
+    "title": "아이디어 및 연구 주제",
+    "section": "Theme 1: DT 준비도 → 교육훈련 효과",
+    "text": "Theme 1: DT 준비도 → 교육훈련 효과\n가제: 중소기업 디지털 전환 준비도가 교육훈련 효과에 미치는 영향\nFactors Influencing Training Effectiveness in SME Digital Transformation\n\n연구문제\n\nRQ1: 중소기업의 DT 준비도는 교육훈련 효과에 어떠한 영향을 미치는가?\n\nRQ1-1: DT 인식수준 → 현업적용도/Q3차이?\nRQ1-2: 조직환경은 DT인식→교육효과를 매개하는가?\nRQ1-3: 기업규모/DT추진부서가 조절하는가?\n\n\n\n\n이론적 기반\n\n\n\n\n\n\n\n이론\n역할\n\n\n\n\nTraining Transfer (Baldwin & Ford, 1988)\n핵심: 전이 = 훈련설계 + 학습자특성 + 작업환경\n\n\nHolton’s HRD Evaluation (1996)\n전이동기→DT인식, 조직풍토→조직환경\n\n\nKirkpatrick 4-Level\nDV 근거: L1→만족도, L2→Q3, L3→현업적용도\n\n\nTOE Framework\nIV 구조: T(시스템)/O(규모,부서)/E(DT단계)\n\n\n\n\n\n타겟 저널\n\nHuman Resource Development Quarterly (SSCI)\nIndustrial and Commercial Training (Scopus)\n직업능력개발연구, HRD연구 (KCI)",
+    "crumbs": [
+      "Research Note",
+      "아이디어 및 연구 주제"
+    ]
+  },
+  {
+    "objectID": "rn_ideas_and_thoughts.html#theme-2-dt-준비도-잠재-프로파일",
+    "href": "rn_ideas_and_thoughts.html#theme-2-dt-준비도-잠재-프로파일",
+    "title": "아이디어 및 연구 주제",
+    "section": "Theme 2: DT 준비도 잠재 프로파일",
+    "text": "Theme 2: DT 준비도 잠재 프로파일\n가제: 중소기업 디지털 전환 준비도의 잠재 프로파일과 교육훈련 효과 차이\nLatent Profiles of DT Readiness and Differential Training Outcomes in Manufacturing SMEs\n\n연구문제\n\nRQ2: DT 준비도에 질적으로 구분되는 잠재 프로파일이 존재하며, 교육효과가 차별적인가?\n\nRQ2-1: 몇 개의 잠재 프로파일이 도출되는가? (기대: 3~4개)\nRQ2-2: 프로파일별 교육효과에 유의한 차이? (BCH 3-step)\nRQ2-3: 프로파일 구성원의 기업특성은 어떻게 다른가?\n\n\n\n\n이론적 기반\n\n\n\n이론\n역할\n\n\n\n\nLatent Variable Mixture Models (Muthen, 2002)\n방법론 기반\n\n\nPattern-Oriented Approach (Bergman & Magnusson, 1997)\n인식론 기반\n\n\nDigital Maturity Model (Kane et al., 2017)\n프로파일 해석 렌즈\n\n\nResource-Based View (Barney, 1991)\n자원 조합 이질성 해석\n\n\n\n\n\n타겟 저널\n\nJournal of Vocational Education & Training (SSCI)\nEuropean Journal of Training and Development (SSCI)\n기업교육과 인재연구, 교육공학연구 (KCI)",
+    "crumbs": [
+      "Research Note",
+      "아이디어 및 연구 주제"
+    ]
+  },
+  {
+    "objectID": "rn_ideas_and_thoughts.html#theme-3-교육효과-달성의-조건-구성-qca",
+    "href": "rn_ideas_and_thoughts.html#theme-3-교육효과-달성의-조건-구성-qca",
+    "title": "아이디어 및 연구 주제",
+    "section": "Theme 3: 교육효과 달성의 조건 구성 (QCA)",
+    "text": "Theme 3: 교육효과 달성의 조건 구성 (QCA)\n가제: 중소기업 DT 교육훈련 효과를 달성하는 조건의 조합: fsQCA 접근\nConfigurational Conditions for Effective DT Training: A Fuzzy-Set QCA Approach\n\n연구문제\n\nRQ3: 높은 교육효과를 달성하기 위한 조건의 조합은 무엇이며, 등결과적 경로가 존재하는가?\n\nRQ3-1: Q3 전후차이의 충분조건 조합? (2~3개 경로 기대)\nRQ3-2: 현업적용도_조직환경의 경로는 다른가?\nRQ3-3: 낮은 교육효과의 부재를 설명하는 조건? (비대칭 인과)\n\n\n\n\n이론적 기반\n\n\n\n이론\n역할\n\n\n\n\nSet-Theoretic Approach (Ragin, 2008)\n방법론 핵심\n\n\nEquifinality (Fiss, 2011)\n결과 해석 핵심\n\n\nTOE Framework\n조건을 T/O/E 차원으로 구조화\n\n\nDynamic Capabilities (Teece)\n조건 조합의 동적 관점\n\n\n\n\n\n타겟 저널\n\nInternational Journal of Training and Development (SSCI)\nStudies in Continuing Education (SSCI)\n중소기업연구, 기술혁신연구 (KCI)",
+    "crumbs": [
+      "Research Note",
+      "아이디어 및 연구 주제"
+    ]
+  },
+  {
+    "objectID": "rn_ideas_and_thoughts.html#theme-4-반복참여-기업-종단-변화",
+    "href": "rn_ideas_and_thoughts.html#theme-4-반복참여-기업-종단-변화",
+    "title": "아이디어 및 연구 주제",
+    "section": "Theme 4: 반복참여 기업 종단 변화",
+    "text": "Theme 4: 반복참여 기업 종단 변화\n가제: K-하이테크 플랫폼 반복참여 기업의 디지털 전환 역량 변화 추적\nTracking DT Capability Changes in Repeatedly Participating SMEs: A Longitudinal Field Study\n\n연구문제\n\nRQ4: 반복 참여 기업의 DT 역량은 시간에 따라 어떻게 변화하는가?\n\nRQ4-1: 2회+ 기업(48개)에서 유의한 향상?\nRQ4-2: 변화량 예측 기업 특성?\nRQ4-3: 3회 기업(14개) 궤적 유형?\n\n\n\n\n데이터 현황\n\n\n\n구분\n기업 수\n레코드\n비고\n\n\n\n\n2회+ 참여\n48개\n111건\n주 분석 대상\n\n\n3회 참여\n14개\n43건\n궤적/사례연구\n\n\n\n\n\n이론적 기반\n\n\n\n\n\n\n\n이론\n역할\n\n\n\n\nAbsorptive Capacity (Cohen & Levinthal)\n핵심: 사전지식→흡수역량 누적\n\n\nDynamic Capabilities (Teece)\nsensing→seizing→transforming 반복\n\n\nExperiential Learning (Kolb)\n반복참여 = 다회전 학습 순환\n\n\n\n\n\n타겟 저널\n\nJournal of Workplace Learning (SSCI)\nSmall Business Economics (SSCI)\n직업교육연구, 평생교육학연구 (KCI)",
+    "crumbs": [
+      "Research Note",
+      "아이디어 및 연구 주제"
+    ]
+  },
+  {
+    "objectID": "rn_ideas_and_thoughts.html#theme-5-dt-애로사항-주제-분석",
+    "href": "rn_ideas_and_thoughts.html#theme-5-dt-애로사항-주제-분석",
+    "title": "아이디어 및 연구 주제",
+    "section": "Theme 5: DT 애로사항 주제 분석",
+    "text": "Theme 5: DT 애로사항 주제 분석\n가제: 중소기업 디지털 전환 애로사항의 구조: 토픽모델링을 활용한 탐색\nMapping DT Challenges in Manufacturing SMEs: A Structural Topic Modeling Approach\n\n연구문제\n\nRQ5: DT 애로사항의 주제 구조는 무엇이며, 기업 특성에 따라 다른가?\n\nRQ5-1: 몇 개의 잠재 주제? (STM K=5~10)\nRQ5-2: 규모/DT단계/업종별 주제 비중 차이?\nRQ5-3: AS-IS vs TO-BE 갭 구조?\n\n\n\n\n이론적 기반\n\n\n\n이론\n역할\n\n\n\n\nSkills Mismatch (McGuinness et al., 2018)\n역량 불일치 해석\n\n\nLiability of Smallness\n소규모 기업 애로 해석\n\n\n\n\n\n타겟 저널\n\nTechnological Forecasting and Social Change (SSCI)\nTechnology Analysis & Strategic Management (SSCI)\n중소기업연구, 벤처창업연구 (KCI)",
+    "crumbs": [
+      "Research Note",
+      "아이디어 및 연구 주제"
+    ]
+  },
+  {
+    "objectID": "rn_ideas_and_thoughts.html#theme-6-dt-기술수요-패턴",
+    "href": "rn_ideas_and_thoughts.html#theme-6-dt-기술수요-패턴",
+    "title": "아이디어 및 연구 주제",
+    "section": "Theme 6: DT 기술수요 패턴",
+    "text": "Theme 6: DT 기술수요 패턴\n가제: 중소기업 디지털 기술수요와 교육니즈의 연결 구조\nDigital Technology Demand Patterns and Training Needs Mapping: MCA and Network Analysis\n\n연구문제\n\nRQ6: DT 기술수요/기대효과/필요교육 간 공동출현 패턴은?\n\nRQ6-1: 네트워크 구조(허브, 중심성)?\nRQ6-2: MCA biplot에서 기업 공간적 분포?\nRQ6-3: 연도별(2022~2025) 수요 변화?\n\n\n\n\n이론적 기반\n\n\n\n이론\n역할\n\n\n\n\nResource-Based View\n기술자원 수요 패턴\n\n\nTOE Framework\n기술 차원의 수요 구조\n\n\n\n\n\n타겟 저널\n\nAsia Pacific Journal of Human Resources (SSCI)\n기술경영경제학회지 (KCI)",
+    "crumbs": [
+      "Research Note",
+      "아이디어 및 연구 주제"
+    ]
+  },
+  {
+    "objectID": "rn_ideas_and_thoughts.html#theme-7-교육훈련-중요도-성과-갭",
+    "href": "rn_ideas_and_thoughts.html#theme-7-교육훈련-중요도-성과-갭",
+    "title": "아이디어 및 연구 주제",
+    "section": "Theme 7: 교육훈련 중요도-성과 갭",
+    "text": "Theme 7: 교육훈련 중요도-성과 갭\n가제: 중소기업 디지털 전환 교육훈련의 중요도-성과 갭 분석\nImportance-Performance Gap Analysis for DT Training in SMEs\n\n연구문제\n\nRQ7: 교육훈련 영역별 중요도-성과 갭은 어떠하며, 집중 개선 영역은?\n\nRQ7-1: 가장 큰 갭? → 필요성(4.36) vs 수준(2.52) = 1.84점\nRQ7-2: 스마트시스템 7영역 갭?\nRQ7-3: 기업규모/DT단계별 차별적 갭?\n\n\n\n\n이론적 기반\n\n\n\n이론\n역할\n\n\n\n\nSkills Mismatch (McGuinness et al., 2018)\n과소기술 상태 정량화\n\n\nIndustry 4.0 Readiness Index\n7영역 레이더 배경\n\n\n\n\n\n타겟 저널\n\nPerformance Improvement Quarterly (Scopus)\n직업능력개발연구, 산업교육연구 (KCI)",
+    "crumbs": [
+      "Research Note",
+      "아이디어 및 연구 주제"
+    ]
+  },
+  {
+    "objectID": "rn_ideas_and_thoughts.html#공통-데이터-제약",
+    "href": "rn_ideas_and_thoughts.html#공통-데이터-제약",
+    "title": "아이디어 및 연구 주제",
+    "section": "공통 데이터 제약",
+    "text": "공통 데이터 제약\n\n\n\n\n\n\n\n\n제약\n영향\n대응\n\n\n\n\n만족도 천장효과 (M=4.66, SD=0.32)\nDV 분산 부족\nQ3차이/현업적용도를 주 DV\n\n\nDT대응수준 2단계 편중 (67.7%)\n집단비교 불균형\n이분화\n\n\n복수참여 비독립 (48기업 111건)\n표준오차 과소추정\n기업단위 분석 또는 클러스터 보정\n\n\nn=282\nSEM 제한\n간단 경로모형, 요인 합산\n\n\n자기보고 편향\nQ3 과대추정\n삼각검증, 한계 명시",
+    "crumbs": [
+      "Research Note",
+      "아이디어 및 연구 주제"
+    ]
+  },
+  {
+    "objectID": "tf_theoretical_framework.html",
+    "href": "tf_theoretical_framework.html",
+    "title": "Theoritical Framework",
+    "section": "",
+    "text": "Hypothesis",
+    "crumbs": [
+      "Theoritical Framework",
+      "Theoritical Framework"
+    ]
+  },
+  {
+    "objectID": "mm_method.html",
+    "href": "mm_method.html",
+    "title": "분석 방법",
+    "section": "",
+    "text": "분석 체계 개요\n최종 업데이트: 2026-03-28\n본 연구는 13개 분석 트랙(T0~T8)을 통해 K-하이테크 플랫폼 데이터를 다각적으로 분석한다. 각 트랙은 독립적인 R 프로젝트로 구성되어 있으며, QMD 보고서를 통해 재현 가능한 형태로 결과를 산출한다.",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_method.html#t0-탐색적-분석",
+    "href": "mm_method.html#t0-탐색적-분석",
+    "title": "분석 방법",
+    "section": "T0: 탐색적 분석",
+    "text": "T0: 탐색적 분석\n\n\n\n\n\n\n\n\n분석\n도구\n목적\n\n\n\n\n기술통계\nR psych::describe()\n핵심 변수 분포 파악, DV 후보 선정\n\n\n상관분석\nR cor.test()\nIV-DV 관계 탐색\n\n\n요인분석 (EFA)\nR psych::fa()\nDT인식 3항목 → 단일요인, 스마트시스템 7영역 → 단일요인\n\n\n집단비교\nR t.test(), aov()\nDT추진부서/SF도입/교육경험별 교육효과 차이\n\n\n\n핵심 판정 기준:\n\nKMO &gt; .60, Bartlett p &lt; .001\n요인부하 &gt; .70, Cronbach alpha &gt; .80\n효과크기: Cohen’s d, eta-squared",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_method.html#t1-회귀요인-분석",
+    "href": "mm_method.html#t1-회귀요인-분석",
+    "title": "분석 방법",
+    "section": "T1: 회귀/요인 분석",
+    "text": "T1: 회귀/요인 분석\n\n\n\n\n\n\n\n\n분석\n도구\n목적\n\n\n\n\nCFA (현업적용도 4구인)\nR lavaan\nCFI&gt;.90, RMSEA&lt;.08\n\n\n위계적 회귀\nR lm\n통제→DT인식→스마트시스템→인프라 순차 투입\n\n\n매개분석\nPROCESS M4 / lavaan\n조직환경 매개효과 (부트스트랩 5000회)\n\n\n조절분석\nPROCESS M1\n기업규모, DT추진부서 조절효과\n\n\n과정유형 비교\nR aov, Tukey HSD\n6개 과정유형별 교육효과 차이",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_method.html#t2-잠재-프로파일-분석-lpa",
+    "href": "mm_method.html#t2-잠재-프로파일-분석-lpa",
+    "title": "분석 방법",
+    "section": "T2: 잠재 프로파일 분석 (LPA)",
+    "text": "T2: 잠재 프로파일 분석 (LPA)\n\n\n\n\n\n\n\n\n\n단계\n분석\n도구\n기준\n\n\n\n\n1\nLPA 1~5 class 비교\nR tidyLPA / mclust\nBIC, AIC, BLRT, aLMR\n\n\n2\n최적 프로파일 결정\n\nEntropy&gt;.80, 최소 클래스&gt;5%\n\n\n3\n프로파일 명명/특성 기술\n\n지표 평균 라인 그래프\n\n\n4\nBCH-proxy ANOVA\n\n분류오차 보정 교육효과 비교\n\n\n5\nmclust 교차검증\nR mclust\ntidyLPA 결과 검증\n\n\n\n지표변수 (6개): DT인식_산업분야이해, DT인식_대응방안, 직무전환_필요성, 스마트팩토리_현재수준, 교육훈련수준, 디지털업무자동화수준\n최적 솔루션: 3-class (Entropy = 0.846)",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_method.html#t3-질적비교분석-qca",
+    "href": "mm_method.html#t3-질적비교분석-qca",
+    "title": "분석 방법",
+    "section": "T3: 질적비교분석 (QCA)",
+    "text": "T3: 질적비교분석 (QCA)\n\n\n\n단계\n분석\n도구\n기준\n\n\n\n\n1\nCalibration (fuzzy 4 + crisp 2)\nR QCA\n직접 캘리브레이션\n\n\n2\n필요조건 분석\n\nconsistency &gt; 0.9\n\n\n3\n진리표 구성 → 충분조건\n\nraw consistency &gt; 0.80\n\n\n4\n중간 해(Intermediate solution)\n\nPRI &gt; 0.75, coverage &gt; 0.25\n\n\n5\n부정 분석 (~outcome)\n\n비대칭 인과 확인\n\n\n\nOutcome: Q3_전후차이 (M=1.45, SD=1.21)\nConditions: DT인식_합산, 스마트시스템_합산, 교육훈련수준, DT부서_보유(crisp), DT교육_있음(crisp)\n결과: 8개 충분 경로 도출 (등결과성 확인)",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_method.html#t4-종단-분석-복수참여-기업",
+    "href": "mm_method.html#t4-종단-분석-복수참여-기업",
+    "title": "분석 방법",
+    "section": "T4: 종단 분석 (복수참여 기업)",
+    "text": "T4: 종단 분석 (복수참여 기업)\n\n\n\n단계\n분석\n대상\n도구\n\n\n\n\n1\n대응표본 t-검정 / Wilcoxon\n48개 기업\nR t.test(paired=TRUE)\n\n\n2\n효과크기 산출\n\nCohen’s d\n\n\n3\n변화량 예측 회귀 (Baseline Regression)\n48개\nR lm\n\n\n4\n변화 궤적 시각화 (Spaghetti Plot)\n\nR ggplot2\n\n\n5\n변화 패턴 유형화\n14개 (3회+)\n질적 기술\n\n\n\n핵심: 교육훈련수준 평균 +0.77 향상 (d=0.60)",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_method.html#t5-텍스트-분석-stm",
+    "href": "mm_method.html#t5-텍스트-분석-stm",
+    "title": "분석 방법",
+    "section": "T5: 텍스트 분석 (STM)",
+    "text": "T5: 텍스트 분석 (STM)\n\n\n\n\n\n\n\n\n\n단계\n분석\n도구\n기준\n\n\n\n\n1\n한국어 형태소 분석\nmecab-ko\n명사 추출\n\n\n2\nDTM 생성, 불용어 제거\nR tidytext\n도메인 불용어 사전\n\n\n3\nSTM K=5~15 탐색\nR stm\nsemantic coherence + exclusivity\n\n\n4\n최적 K=7 선택, 주제 명명\n\n해석 가능성\n\n\n5\nPrevalence 공변량\nR stm\n11개 공변량 투입\n\n\n6\nLPA 프로파일별 토픽 차별화\n\nT2 연계\n\n\n7\n복수참여 기업 텍스트 변화\n\nT4 연계\n\n\n8\n다중 텍스트 컬럼별 독립 분석\n\nDT애로사항, TO_BE, 성과상세, AS_IS\n\n\n9\nContent covariate 효과\n\n토픽 내용에 대한 공변량\n\n\n10\nSensitivity analysis\n\n토픽 수(k) 변동\n\n\n\n공변량 (11개): 연도, 기업규모, DT대응수준, 교육훈련수준, SF도입, DT추진부서, DT교육경험, 업종, 스마트시스템 수준, DT인식 합산, 교육훈련 필요성",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_method.html#t6-네트워크-분석",
+    "href": "mm_method.html#t6-네트워크-분석",
+    "title": "분석 방법",
+    "section": "T6: 네트워크 분석",
+    "text": "T6: 네트워크 분석\n\n\n\n단계\n분석\n도구\n\n\n\n\n1\n공동출현 행렬\nR igraph\n\n\n2\n네트워크 시각화 + 중심성\nR ggraph, igraph\n\n\n3\n커뮤니티 탐지\nLouvain Algorithm\n\n\n4\nMCA (다중대응분석)\nR FactoMineR::MCA()\n\n\n5\n기업규모별 기술수요 패턴\nR ggplot2\n\n\n6\n연관분석 (Association Rules)\nR arules\n\n\n\n분석 대상: 18개 노드 (DT기술 + DT기대효과 + DT필요교육), 이분형 복수응답",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_method.html#t7-ipa-갭분석",
+    "href": "mm_method.html#t7-ipa-갭분석",
+    "title": "분석 방법",
+    "section": "T7: IPA 갭분석",
+    "text": "T7: IPA 갭분석\n\n\n\n단계\n분석\n도구\n\n\n\n\n1\nIPA 4사분면 매트릭스\nR ggplot2 scatter\n\n\n2\n스마트시스템 7영역 레이더차트\nR fmsb\n\n\n3\n연도별 오버레이\nR ggplot2\n\n\n4\n하위집단 IPA 비교\nR ggplot2 facet\n\n\n5\nPaired t-test (필요성 vs 수준)\nR t.test(paired=TRUE)\n\n\n\n핵심 갭: 교육필요성(M=4.36) vs 교육수준(M=2.52) = 1.84점 갭",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_method.html#t8-인과추론-분석",
+    "href": "mm_method.html#t8-인과추론-분석",
+    "title": "분석 방법",
+    "section": "T8: 인과추론 분석",
+    "text": "T8: 인과추론 분석\n\nT8-1: 패널 회귀분석\n\n\n\n모형\n방법\n도구\n\n\n\n\nPooled OLS\n클러스터 강건 표준오차\nR lm, sandwich\n\n\nRandom Effects\nGLS\nR plm\n\n\nFixed Effects\nWithin 추정\nR plm\n\n\n모형 선택\nHausman 검정\nR plm::phtest()\n\n\n\nDV: 현업적용도_조직환경, Q3_차이\n\n\nT8-2: 성향점수매칭 (PSM)\n3가지 처치 변수에 대해 독립적 PSM 분석을 수행한다.\n\n\n\n\n\n\n\n\n\n\nPSM 유형\n처치 변수\n대조군\n처치군\n매칭 방법\n\n\n\n\nT8-2-1\nDT교육경험 유무\n없음\n있음\nNearest neighbor, caliper=0.2\n\n\nT8-2-2\n스마트팩토리 도입\n미도입\n도입\nNearest neighbor, caliper=0.2\n\n\nT8-2-3\n복수참여 여부\n1회\n2회+\nNearest neighbor, caliper=0.2\n\n\n\n공통 도구: R MatchIt, cobalt (균형 진단)",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_method.html#분석-환경",
+    "href": "mm_method.html#분석-환경",
+    "title": "분석 방법",
+    "section": "분석 환경",
+    "text": "분석 환경\n\n\n\n\n\n\n\n항목\n사양\n\n\n\n\nR 버전\n4.4+\n\n\n주요 패키지\ntidyverse, lavaan, tidyLPA, mclust, QCA, stm, igraph, FactoMineR, plm, MatchIt\n\n\n보고서 형식\nQuarto (.qmd) → HTML/PDF/DOCX/MD (4포맷)\n\n\nR 프로젝트\n13개 독립 프로젝트\n\n\n총 코드 라인\n4,362 lines",
+    "crumbs": [
+      "Methodology and Method",
+      "분석 방법"
+    ]
+  },
+  {
+    "objectID": "mm_data.html",
+    "href": "mm_data.html",
+    "title": "데이터",
+    "section": "",
+    "text": "데이터 개요\n최종 업데이트: 2026-03-28",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#데이터-개요",
+    "href": "mm_data.html#데이터-개요",
+    "title": "데이터",
+    "section": "",
+    "text": "항목\n내용\n\n\n\n\n데이터명\nK-하이테크 플랫폼 4개년 통합데이터\n\n\n버전\nv2\n\n\n기간\n2022~2025년\n\n\n총 레코드\n282건\n\n\n변수\n166개\n\n\n기업\n219개사 (기업고유코드 KHT-0001~KHT-0219)\n\n\n복수참여\n48개사, 111건",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#연도별-기본-현황",
+    "href": "mm_data.html#연도별-기본-현황",
+    "title": "데이터",
+    "section": "연도별 기본 현황",
+    "text": "연도별 기본 현황\n\n\n\n연도\n기업 수\n법인\n개인\n\n\n\n\n2022\n78\n50\n27\n\n\n2023\n55\n46\n9\n\n\n2024\n74\n63\n11\n\n\n2025\n75\n67\n8\n\n\n합계\n282\n226\n55",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#상시근로자수",
+    "href": "mm_data.html#상시근로자수",
+    "title": "데이터",
+    "section": "상시근로자수",
+    "text": "상시근로자수\n\n\n\n연도\n평균\n중앙값\n최소\n최대\n\n\n\n\n2022\n26명\n18명\n3명\n119명\n\n\n2023\n26명\n18명\n3명\n170명\n\n\n2024\n32명\n20명\n3명\n295명\n\n\n2025\n34명\n18명\n5명\n294명",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#업종-분포",
+    "href": "mm_data.html#업종-분포",
+    "title": "데이터",
+    "section": "업종 분포",
+    "text": "업종 분포\n\n\n\n업종\n건수\n비율\n\n\n\n\n기계금속\n203\n72.0%\n\n\n전기전자\n45\n16.0%\n\n\n기타\n32\n11.3%\n\n\n화학화공\n16\n5.7%\n\n\n정보통신SW\n12\n4.3%\n\n\n생활용품\n11\n3.9%\n\n\n환경\n4\n1.4%\n\n\n토목건축\n4\n1.4%\n\n\n섬유\n1\n0.4%",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#dt-전환-대응-수준",
+    "href": "mm_data.html#dt-전환-대응-수준",
+    "title": "데이터",
+    "section": "DT 전환 대응 수준",
+    "text": "DT 전환 대응 수준\n\n\n\n단계\n2022\n2023\n2024\n2025\n합계\n\n\n\n\n1단계\n14\n17\n16\n6\n53\n\n\n2단계\n51\n39\n49\n52\n191\n\n\n3단계\n11\n9\n17\n12\n49\n\n\n4단계\n6\n1\n4\n10\n21\n\n\n5단계\n0\n1\n1\n0\n2\n\n\n\n2단계 편중(67.7%)이 두드러짐. 집단비교 시 이분화 처리 필요.",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#dt-추진부서-보유-현황",
+    "href": "mm_data.html#dt-추진부서-보유-현황",
+    "title": "데이터",
+    "section": "DT 추진부서 보유 현황",
+    "text": "DT 추진부서 보유 현황\n\n\n\n구분\n건수\n비율\n\n\n\n\n전담조직\n3\n1.1%\n\n\n전담인력\n8\n2.8%\n\n\n겸직인력\n68\n24.1%\n\n\n추후확보\n84\n29.8%\n\n\n없음\n121\n42.9%\n\n\n\n전담 조직/인력을 보유한 기업은 전체의 약 28%에 불과하다.",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#dt-교육경험",
+    "href": "mm_data.html#dt-교육경험",
+    "title": "데이터",
+    "section": "DT 교육경험",
+    "text": "DT 교육경험\n\n\n\n구분\n건수\n비율\n\n\n\n\n조직원대상\n31\n11.0%\n\n\nCEO임원\n30\n10.6%\n\n\n전담인력\n64\n22.7%\n\n\n없음\n175\n62.1%\n\n\n\n약 62%의 기업이 DT 관련 교육 경험이 전혀 없는 상태에서 플랫폼에 참여하였다.",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#dt-기술-수요-복수응답",
+    "href": "mm_data.html#dt-기술-수요-복수응답",
+    "title": "데이터",
+    "section": "DT 기술 수요 (복수응답)",
+    "text": "DT 기술 수요 (복수응답)\n\n\n\n기술\n건수\n비율\n\n\n\n\n빅데이터\n176\n62.4%\n\n\n사물인터넷\n102\n36.2%\n\n\n인공지능\n74\n26.2%\n\n\n로봇공학\n74\n26.2%\n\n\n기타\n54\n19.1%\n\n\n3D프린팅\n50\n17.7%\n\n\n클라우드\n47\n16.7%\n\n\n모바일5G\n39\n13.8%\n\n\nVRAR\n7\n2.5%\n\n\n블록체인\n0\n0.0%\n\n\n\n빅데이터가 압도적 1위(62.4%). 블록체인 수요는 0건.",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#코드북-요약",
+    "href": "mm_data.html#코드북-요약",
+    "title": "데이터",
+    "section": "코드북 요약",
+    "text": "코드북 요약\nv2 코드북은 166개 변수에 대해 다음을 포함한다:\n\n변수명, 변수 설명, 데이터 타입\n척도 범위 (1-4점, 1-5점, 이분형 등)\n결측 현황 및 비율\n연도별 가용 여부 (4개년 공통/특정년도)\n\n\n핵심 변수 영역\n\n\n\n\n\n\n\n\n영역\n변수 수\n예시\n\n\n\n\n기업 기본정보\n약 20개\n기업고유코드, 상시근로자수, 업종, 기업유형\n\n\nDT 인식/준비도\n약 10개\nDT인식_산업분야이해, DT인식_대응방안, 직무전환_필요성\n\n\n스마트시스템 7영역\n7개\n제품개발, 생산계획, 공정관리, 품질관리, 설비관리, 물류운영, 설비자동화\n\n\nDT 기술수요 (복수응답)\n10개\n빅데이터, 사물인터넷, 인공지능, 로봇공학 등\n\n\n교육훈련 관련\n약 15개\n과정유형, 만족도, Q3 전후, 현업적용도 11항목\n\n\n텍스트 변수\n4개\nDT애로사항, AS_IS, TO_BE, 성과상세",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#데이터-품질-이슈",
+    "href": "mm_data.html#데이터-품질-이슈",
+    "title": "데이터",
+    "section": "데이터 품질 이슈",
+    "text": "데이터 품질 이슈\n\n\n\n이슈\n상태\n\n\n\n\n기업명 (주)/㈜ 표기 통일\n완료 (19건)\n\n\n사명변경/오류 의심 3건\n원본 확인 필요\n\n\n2024 수행일자 1건 (1970-01-01)\n원본 오류\n\n\n2024 시트 제목 “2025년도” 표기\n원본 오류",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "mm_data.html#파일-경로",
+    "href": "mm_data.html#파일-경로",
+    "title": "데이터",
+    "section": "파일 경로",
+    "text": "파일 경로\n\n\n\n\n\n\n\n파일\n경로\n\n\n\n\n통합 데이터\ndocs/01_기존자료/기존자료/04_output/K-하이테크_통합데이터_v2.xlsx\n\n\n코드북\ndocs/01_기존자료/기존자료/04_output/K-하이테크_코드북_v2.xlsx\n\n\n원본 데이터\ndocs/01_기존자료/기존자료/01_raw_data/22~25년 K-하이테크 플랫폼 데이터.xlsx\n\n\n변경사항 문서\ndocs/01_기존자료/기존자료/02_data_processing_document/",
+    "crumbs": [
+      "Methodology and Method",
+      "데이터"
+    ]
+  },
+  {
+    "objectID": "lr_search_incl_excl.html",
+    "href": "lr_search_incl_excl.html",
+    "title": "Searching and Inclusion & Exclusion",
+    "section": "",
+    "text": "Round 1",
+    "crumbs": [
+      "Literature Review",
+      "Searching and Inclusion & Exclusion"
+    ]
+  },
+  {
+    "objectID": "lr_search_incl_excl.html#search-kewwords-and-category",
+    "href": "lr_search_incl_excl.html#search-kewwords-and-category",
+    "title": "Searching and Inclusion & Exclusion",
+    "section": "Search kewwords and category",
+    "text": "Search kewwords and category",
+    "crumbs": [
+      "Literature Review",
+      "Searching and Inclusion & Exclusion"
+    ]
+  },
+  {
+    "objectID": "lr_search_incl_excl.html#keywords-combination",
+    "href": "lr_search_incl_excl.html#keywords-combination",
+    "title": "Searching and Inclusion & Exclusion",
+    "section": "keywords combination",
+    "text": "keywords combination",
+    "crumbs": [
+      "Literature Review",
+      "Searching and Inclusion & Exclusion"
+    ]
+  },
+  {
+    "objectID": "lr_search_incl_excl.html#search-kewwords-and-category-1",
+    "href": "lr_search_incl_excl.html#search-kewwords-and-category-1",
+    "title": "Searching and Inclusion & Exclusion",
+    "section": "Search kewwords and category",
+    "text": "Search kewwords and category",
+    "crumbs": [
+      "Literature Review",
+      "Searching and Inclusion & Exclusion"
+    ]
+  },
+  {
+    "objectID": "lr_search_incl_excl.html#keywords-combination-1",
+    "href": "lr_search_incl_excl.html#keywords-combination-1",
+    "title": "Searching and Inclusion & Exclusion",
+    "section": "keywords combination",
+    "text": "keywords combination",
+    "crumbs": [
+      "Literature Review",
+      "Searching and Inclusion & Exclusion"
+    ]
+  },
+  {
+    "objectID": "lr_search_incl_excl.html#search-kewwords-and-category-2",
+    "href": "lr_search_incl_excl.html#search-kewwords-and-category-2",
+    "title": "Searching and Inclusion & Exclusion",
+    "section": "Search kewwords and category",
+    "text": "Search kewwords and category",
+    "crumbs": [
+      "Literature Review",
+      "Searching and Inclusion & Exclusion"
+    ]
+  },
+  {
+    "objectID": "lr_search_incl_excl.html#keywords-combination-2",
+    "href": "lr_search_incl_excl.html#keywords-combination-2",
+    "title": "Searching and Inclusion & Exclusion",
+    "section": "keywords combination",
+    "text": "keywords combination",
+    "crumbs": [
+      "Literature Review",
+      "Searching and Inclusion & Exclusion"
+    ]
+  },
+  {
+    "objectID": "lr_referencelist.html",
+    "href": "lr_referencelist.html",
+    "title": "Reference List",
+    "section": "",
+    "text": "Round 1\nCategory, Classification and Decision Note for Selected Literature in Rounds",
+    "crumbs": [
+      "Literature Review",
+      "Reference List"
+    ]
+  },
+  {
+    "objectID": "lr_referencelist.html#round-2",
+    "href": "lr_referencelist.html#round-2",
+    "title": "Reference List",
+    "section": "Round 2",
+    "text": "Round 2",
+    "crumbs": [
+      "Literature Review",
+      "Reference List"
+    ]
+  },
+  {
+    "objectID": "lr_referencelist.html#round-3",
+    "href": "lr_referencelist.html#round-3",
+    "title": "Reference List",
+    "section": "Round 3",
+    "text": "Round 3",
+    "crumbs": [
+      "Literature Review",
+      "Reference List"
+    ]
+  },
+  {
+    "objectID": "lr_referencelist.html#additional-during-and-after-writing",
+    "href": "lr_referencelist.html#additional-during-and-after-writing",
+    "title": "Reference List",
+    "section": "Additional (during and after writing)",
+    "text": "Additional (during and after writing)",
+    "crumbs": [
+      "Literature Review",
+      "Reference List"
+    ]
+  },
+  {
+    "objectID": "ar_overview.html",
+    "href": "ar_overview.html",
+    "title": "분석 결과 개요",
+    "section": "",
+    "text": "25개 분석 트랙 결과 요약\n최종 업데이트: 2026-03-31\n본 연구는 K-하이테크 플랫폼 4개년 데이터(282건, 166변수)를 대상으로 1차 탐색/준실험(13개) + 2차 인과/구조(12개) = 총 25개 분석 트랙을 수행하였다. 탐색적 분석부터 인과추론, 구조 모형까지 다층적 접근을 통해 중소기업 디지털 전환 교육의 효과를 다각적으로 검증하였다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "분석 결과 개요"
+    ]
+  },
+  {
+    "objectID": "ar_overview.html#차-분석-트랙별-결과-요약-t0t9-탐색준실험",
+    "href": "ar_overview.html#차-분석-트랙별-결과-요약-t0t9-탐색준실험",
+    "title": "분석 결과 개요",
+    "section": "1차 분석 트랙별 결과 요약 (T0~T9, 탐색/준실험)",
+    "text": "1차 분석 트랙별 결과 요약 (T0~T9, 탐색/준실험)\n\n\n\n\n\n\n\n\n\n트랙\n분석명\n핵심 결과\n상태\n\n\n\n\nT0\n탐색적 분석\nDT인식↔︎교육효과 상관 약함(r=-.13~+.08), 만족도 천장효과, 조직환경이 최적 DV\n완료\n\n\nT1\n회귀/요인\nDT인식 3항목 단일요인(alpha=.861), 스마트시스템 7영역 단일요인(alpha=.926), MES실무 Q3최고(+1.93)\n완료\n\n\nT2\nLPA\n3-class 최적(Entropy=0.846): 미인식형/인식-미실행형/적극전환형\n완료\n\n\nT3\nQCA\n8개 충분 경로 도출, 등결과성(equifinality) 확인\n완료\n\n\nT4\n종단분석\n교육훈련수준 +0.77(d=0.60), 4가지 궤적 유형 도출\n완료\n\n\nT5\nSTM\n7개 토픽(k=7), 11개 공변량 효과, LPA 프로파일별 토픽 차별화 확인\n완료\n\n\nT6\n네트워크\n밀도 0.719, 빅데이터 허브, 3개 커뮤니티, MCA 2차원\n완료\n\n\nT7\nIPA\n교육필요성-수준 갭 1.84점, 설비자동화 지속 최저\n완료\n\n\nT8-1\n패널회귀\nPooled OLS(cluster SE), RE, FE 비교, Hausman 검정\n완료\n\n\nT8-2-1\nPSM(DT교육경험)\nDT교육경험의 인과적 효과 추정\n완료\n\n\nT8-2-2\nPSM(SF도입)\nSF도입의 인과적 효과 추정\n완료\n\n\nT8-2-3\nPSM(복수참여)\n복수참여의 인과적 효과 추정\n완료",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "분석 결과 개요"
+    ]
+  },
+  {
+    "objectID": "ar_overview.html#차-분석-트랙별-결과-요약-t10t21-인과구조",
+    "href": "ar_overview.html#차-분석-트랙별-결과-요약-t10t21-인과구조",
+    "title": "분석 결과 개요",
+    "section": "2차 분석 트랙별 결과 요약 (T10~T21, 인과/구조)",
+    "text": "2차 분석 트랙별 결과 요약 (T10~T21, 인과/구조)\n1차 분석에서 탐색적으로 발견한 패턴을 인과적으로 검증하고, 구조적 메커니즘을 규명하는 12개 심화 모형이다.\n\n\n\n\n\n\n\n\n\n\n\n트랙\n모델\n방법\n이론\n핵심 결과\n상태\n\n\n\n\nT10\nM8\nStaggered DID\n경험학습\nTWFE null, 용량-반응(교육훈련 B=0.636, p&lt;.001) 유의\n완료\n\n\nT11\nM1\n위계적 회귀\n교육전이\nDT인식→Q3_차이 B=-0.017, p=.879 (null 재확인)\n완료\n\n\nT12\nM2\n매개분석\nHolton HRD\nACME=0.017, p=.422 (매개 경로 차단)\n완료\n\n\nT13\nM12\n순차매개\n인적자본\na=0.716(p&lt;.001), 전체경로 차단\n완료\n\n\nT14\nM5\n규모조절회귀\nLoS\n대기업 역설 (B=-0.282), J-N 전환점 없음\n완료\n\n\nT15\nM4\n2x2 ANOVA\n보완성\nSF x 복수참여 역시너지 F=8.285, p=.004\n완료\n\n\nT16\nM6\n조절매개\n흡수역량\nAC 역전, DT부서 보유 시 경로a 소멸\n완료\n\n\nT17\nM7\nTOE 경로분석\nTOE\nTOE 내부 유의(beta=.32~.49), DV 경로 전멸\n완료\n\n\nT18\nM3\n순서 로지스틱\n성숙도\nOR=1.411, p=.016 (단계적 전환)\n완료\n\n\nT19\nM9\nLPA 4-class\n인원 중심\n4프로파일, 보상효과 발견\n완료\n\n\nT20\nM10\nfsQCA+DID\n등결과성\n3경로, ~DT_AWARE 포함 (인과적 등결과성)\n완료\n\n\nT21\nM11\nCLPM\n동적역량\nE→T beta=.488 최강 (인프라→인식 역방향)\n완료\n\n\n\n\n가설 검증 요약 (2차, 35건)\n\n\n\n결과\n건수\n비율\n\n\n\n\n채택\n14\n40%\n\n\n기각\n14\n40%\n\n\n역전\n5\n14%\n\n\n경계적\n2\n6%",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "분석 결과 개요"
+    ]
+  },
+  {
+    "objectID": "ar_overview.html#분석-간-연계-구조",
+    "href": "ar_overview.html#분석-간-연계-구조",
+    "title": "분석 결과 개요",
+    "section": "분석 간 연계 구조",
+    "text": "분석 간 연계 구조\n[1차 탐색/준실험: T0~T9]\nT0 탐색적 분석\n  ├── T1 회귀/요인 (변수 구조 확인 → 모형 구축)\n  ├── T7 IPA (갭 구조 탐색)\n  ├── T2 LPA (프로파일 도출)\n  │    └── T5 STM (프로파일별 토픽 차별화)\n  │    └── T3 QCA (프로파일을 조건변수로 투입)\n  ├── T4 종단분석 (복수참여 기업 변화)\n  ├── T6 네트워크 (기술수요 패턴)\n  └── T8 인과추론 (패널회귀 + PSM 3종)\n\n        │ 1차 발견 → 2차 검증\n        ▼\n\n[2차 인과/구조: T10~T21]\nT10 DID (1차 T4/T8의 인과적 확인)\n  ├── T11 기본회귀 (T1 null 재확인)\n  ├── T12 매개 (T1 조직환경 매개 검증)\n  ├── T13 순차매개 (인적자본 경로)\n  ├── T14 규모조절 (T8 기업규모 효과 심화)\n  ├── T15 상호작용 (T8_2_2 SF 역시너지)\n  ├── T16 조절매개 (흡수역량 역전)\n  ├── T17 TOE 경로 (T5 TOE 구조 검증)\n  ├── T18 성숙도 (비선형 전환)\n  ├── T19 LPA 4-class (T2 확장)\n  ├── T20 QCA+DID (T3 인과적 확장)\n  └── T21 CLPM (인과 방향 검증)",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "분석 결과 개요"
+    ]
+  },
+  {
+    "objectID": "ar_overview.html#대-관통-패턴",
+    "href": "ar_overview.html#대-관통-패턴",
+    "title": "분석 결과 개요",
+    "section": "5대 관통 패턴",
+    "text": "5대 관통 패턴\n1-2차 분석(25개 트랙)을 관통하는 5가지 핵심 패턴:\n\n\n\n\n\n\n\n\n패턴\n1차 증거\n2차 확인\n\n\n\n\n인식-성과 단절\nT1 R2=.005, T2 프로파일 무차이\nM1 B=-.017(null), M2 매개 차단, M7 DV 전멸\n\n\n더 많이 가진 역효과\nT2 고준비 Q3 무차이, T8_2_2 SF ATT=0\nM5 대기업 역설, M4 역시너지 p=.004, M6 AC 포화\n\n\nTOE 내부만 강함\nT5 기술장벽 53%\nM7 beta=.32~.49(유의), DV 전멸\n\n\n용량-반응 분리\nT4 인식 d=.55 vs Q3 n.s.\nM8 DID 교육훈련 p&lt;.001 vs Q3 n.s.\n\n\n등결과성\nT3 필요조건 없음, 다경로\nM10 DID 조건 추가 후 3경로, ~DT_AWARE",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "분석 결과 개요"
+    ]
+  },
+  {
+    "objectID": "ar_overview.html#방법론적-삼각검증",
+    "href": "ar_overview.html#방법론적-삼각검증",
+    "title": "분석 결과 개요",
+    "section": "방법론적 삼각검증",
+    "text": "방법론적 삼각검증\n본 연구는 다음 4가지 차원에서 삼각검증(triangulation)을 달성하였다:\n\n방법론 삼각검증: 변수중심(T0,T1,T11~T18) + 사람중심(T2,T19 LPA) + 조건조합(T3,T20 QCA) + 텍스트(T5 STM) + 인과추론(T10 DID, T21 CLPM)\n데이터 삼각검증: 횡단(T0~T3) + 종단(T4,T21) + 인과추론(T8 PSM, T10 DID)\n분석수준 삼각검증: 개인수준(설문) + 기업수준(패널) + 텍스트수준(비정형)\n이론 삼각검증: 16개 이론 적용 (TOE, 교육전이, 흡수역량, 등결과성, 경험학습, 동적역량 등)",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "분석 결과 개요"
+    ]
+  },
+  {
+    "objectID": "ar_exploratory.html",
+    "href": "ar_exploratory.html",
+    "title": "탐색적 분석 결과 (T0, T1, T7)",
+    "section": "",
+    "text": "T0: 탐색적 분석\n최종 업데이트: 2026-03-28",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "탐색적 분석 결과 (T0, T1, T7)"
+    ]
+  },
+  {
+    "objectID": "ar_exploratory.html#t0-탐색적-분석",
+    "href": "ar_exploratory.html#t0-탐색적-분석",
+    "title": "탐색적 분석 결과 (T0, T1, T7)",
+    "section": "",
+    "text": "핵심 변수 기술통계\n\nDV 후보\n\n\n\n변수\nn\nM\nSD\nskew\n판정\n\n\n\n\nQ3 전후차이\n244\n+1.45\n1.21\n-\n분산 양호, 주 DV\n\n\n현업적용도_조직환경\n245\n4.37\n0.58\n-\nDV 중 분산 최대\n\n\nQ2_도움정도\n245\n4.77\n0.42\n-2.07\n심한 부적편포\n\n\n만족도_총합\n245\n4.66\n0.32\n-1.61\n천장효과\n\n\n\n\n\nIV 후보 (DT 준비도)\n\n\n\n변수\nn\nM\nSD\nskew\n\n\n\n\nDT인식_산업분야이해\n280\n2.11\n0.83\n0.87\n\n\nDT인식_대응방안\n278\n2.14\n0.78\n0.76\n\n\n직무전환_필요성\n281\n1.90\n0.78\n0.61\n\n\n스마트팩토리_현재수준\n282\n1.97\n0.75\n0.44\n\n\n교육훈련수준\n282\n2.52\n1.08\n0.41\n\n\n디지털업무자동화수준\n282\n2.21\n0.92\n0.39\n\n\n\n\n\n스마트시스템 7영역\n\n\n\n영역\nM\nSD\n순위\n\n\n\n\n품질관리\n2.99\n1.03\n1위\n\n\n제품개발\n2.86\n1.02\n2위\n\n\n공정관리\n2.74\n0.98\n3위\n\n\n생산계획\n2.69\n0.93\n4위\n\n\n설비관리\n2.62\n0.99\n5위\n\n\n물류운영\n2.57\n0.94\n6위\n\n\n설비자동화\n2.45\n1.01\n7위 (최저)\n\n\n\n\n\n\n상관분석 핵심 발견\n\n\n\n변수쌍\nr\n해석\n\n\n\n\nDT인식 3항목 간\n.67~.68\n높은 수렴 → 단일요인 합산 가능\n\n\nDT인식 → 만족도\n.09~.18\n약한 상관\n\n\nDT인식 → Q3차이\n-.13~+.08\n거의 무상관\n\n\n교육훈련수준 → Q2도움\n.31\n중간 상관 (유일한 의미있는 IV→DV)\n\n\n만족도 → Q3차이\n.06\n무상관\n\n\n\n중요 발견: DT 준비도(IV)와 교육효과(DV) 간 상관이 매우 약하거나 무의미. 이는 단순 회귀(T1)의 효과가 제한적일 수 있음을 시사하며, 조건 조합적 접근(QCA)의 필요성을 뒷받침한다.\n\n\n집단비교 주요 결과\n\n\n\n비교\nDV\n결과\n효과크기\n\n\n\n\nDT추진부서 보유 vs 미보유\n조직환경\np=.066 (경계 유의)\nd=0.25\n\n\nSF도입 vs 미도입\n전체 DV\n유의한 차이 없음\nd&lt;0.11\n\n\nDT교육경험 있음 vs 없음\n만족도\np=.007\nd=0.34\n\n\n연도별 ANOVA\n조직환경\np=.008\n유의한 연도 차이",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "탐색적 분석 결과 (T0, T1, T7)"
+    ]
+  },
+  {
+    "objectID": "ar_exploratory.html#t1-회귀요인-분석",
+    "href": "ar_exploratory.html#t1-회귀요인-분석",
+    "title": "탐색적 분석 결과 (T0, T1, T7)",
+    "section": "T1: 회귀/요인 분석",
+    "text": "T1: 회귀/요인 분석\n\n요인분석 결과\nDT인식 3항목 → 단일요인\n\n\n\n지표\n결과\n판정\n\n\n\n\nKMO\n0.74\n적합 (&gt;.60)\n\n\nBartlett\np &lt; .001\n유의\n\n\n요인부하\n.81, .83, .82\n모두 .80+ (우수)\n\n\nCronbach alpha\n.861\n우수\n\n\n\n스마트시스템 7영역 → 단일요인\n\n\n\n지표\n결과\n판정\n\n\n\n\nKMO\n0.90\n매우 적합\n\n\n요인부하\n.72~.88\n모두 우수\n\n\nCronbach alpha\n.926\n매우 우수\n\n\n\n\n\n현업적용도 4구인\n\n\n\n\n\n\n\n\n\n\n구인\n항목\nM\nSD\n비고\n\n\n\n\n개인특성\n참여도/이해도/노력도\n4.69\n0.35\n최고\n\n\n교육과정\n관련성/도움도/부합도\n4.61\n0.43\n\n\n\n조직환경\n적용기회/조직지원\n4.37\n0.58\n최저, DV 최적\n\n\n현업적용\n활용도/능력향상/성과향상\n4.54\n0.50\n\n\n\n\n조직환경(4.37)이 다른 구인 대비 유의하게 낮음. 매개변수 또는 DV로서 가치가 높다.\n\n\n과정유형별 교육효과\n\n\n\n유형\n만족도 M\nQ3차이 M\n특징\n\n\n\n\nAI이해\n4.85\n1.23\n만족도 최고\n\n\nMES실무\n4.70\n1.93\nQ3차이 최고 (실제 역량변화)\n\n\nMES기초\n4.61\n1.54\n\n\n\nDT개론\n4.63\n1.03\n만족도/Q3 모두 최저\n\n\n\n만족도와 실제 역량변화(Q3차이)는 서로 다른 패턴을 보인다. AI이해 과정은 만족도가 높지만 역량변화는 보통이고, MES실무 과정은 실제 역량변화가 가장 크다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "탐색적 분석 결과 (T0, T1, T7)"
+    ]
+  },
+  {
+    "objectID": "ar_exploratory.html#t7-ipa-갭분석",
+    "href": "ar_exploratory.html#t7-ipa-갭분석",
+    "title": "탐색적 분석 결과 (T0, T1, T7)",
+    "section": "T7: IPA 갭분석",
+    "text": "T7: IPA 갭분석\n\n핵심 갭\n교육필요성(M=4.36) vs 교육수준(M=2.52) = 1.84점 갭\n5점 척도에서 1.84점 갭은 매우 큰 수준이다. IPA 4사분면에서 “높은 중요도(필요성) + 낮은 성과(수준)” = Q2(집중개선) 사분면에 해당한다.\n\n\n스마트시스템 7영역 연도별 추이\n\n\n\n\n\n\n\n\n\n\n\n영역\n2022\n2023\n2024\n2025\n추세\n\n\n\n\n품질관리\n2.50\n3.18\n3.11\n3.24\n상승 후 안정\n\n\n제품개발\n2.36\n3.07\n3.08\n3.01\n상승 후 안정\n\n\n공정관리\n2.24\n3.04\n3.03\n2.76\n상승 후 하락\n\n\n생산계획\n2.15\n3.13\n2.84\n2.77\n상승 후 하락\n\n\n설비관리\n2.12\n2.96\n2.74\n2.79\n상승\n\n\n물류운영\n2.26\n2.65\n2.72\n2.71\n완만 상승\n\n\n설비자동화\n2.03\n2.85\n2.57\n2.47\n상승 후 하락, 지속 최저\n\n\n\n2022→2023 대폭 상승 후 2024~2025 정체 또는 소폭 하락하는 패턴이 관찰된다. 설비자동화가 4년 연속 최저 영역이다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "탐색적 분석 결과 (T0, T1, T7)"
+    ]
+  },
+  {
+    "objectID": "ar_lpa_qca.html",
+    "href": "ar_lpa_qca.html",
+    "title": "LPA 및 QCA 분석 결과 (T2, T3)",
+    "section": "",
+    "text": "T2: 잠재 프로파일 분석 (LPA)\n최종 업데이트: 2026-03-28",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "LPA 및 QCA 분석 결과 (T2, T3)"
+    ]
+  },
+  {
+    "objectID": "ar_lpa_qca.html#t2-잠재-프로파일-분석-lpa",
+    "href": "ar_lpa_qca.html#t2-잠재-프로파일-분석-lpa",
+    "title": "LPA 및 QCA 분석 결과 (T2, T3)",
+    "section": "",
+    "text": "모형 비교\n6개 지표변수(DT인식 3항목, 스마트팩토리 현재수준, 교육훈련수준, 디지털업무자동화수준)를 투입하여 1~5 클래스 LPA를 실시하였다.\n분석 표본: 277건 (결측 제외)\n도구: R tidyLPA + mclust 교차검증\n\n\n최적 솔루션: 3-class\n\n\n\n지표\n결과\n판정\n\n\n\n\n최적 클래스 수\n3\nBIC/AIC 종합 판단\n\n\nEntropy\n0.846\n양호 (&gt;.80)\n\n\n최소 클래스 비율\n&gt;5%\n충족\n\n\n\n\n\n3개 프로파일 특성\n\n\n\n\n\n\n\n\n\n프로파일\n명칭\n특징\n비율\n\n\n\n\nP1\nDT 미인식형\n전 지표 1~2점대, DT 인식/인프라 모두 낮음\n다수\n\n\nP2\n인식-미실행형\nDT 인식은 높으나 인프라/실행 수준 낮음\n중간\n\n\nP3\n적극 전환형\n전 지표 3점 이상, DT 인식과 인프라 모두 높음\n소수\n\n\n\n\n\n프로파일별 교육효과 차이 (BCH-proxy ANOVA)\n프로파일별 교육효과(Q3 전후차이, 현업적용도_조직환경, 만족도)의 차이를 분류오차를 고려한 BCH-proxy 방식으로 검정하였다. 프로파일 간 교육효과의 차별적 패턴이 확인되었다.\n\n\nmclust 교차검증\ntidyLPA 결과의 강건성을 확인하기 위해 mclust 패키지로 교차검증을 실시하였다. 3-class 솔루션이 두 패키지 모두에서 지지되었다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "LPA 및 QCA 분석 결과 (T2, T3)"
+    ]
+  },
+  {
+    "objectID": "ar_lpa_qca.html#t3-질적비교분석-qca",
+    "href": "ar_lpa_qca.html#t3-질적비교분석-qca",
+    "title": "LPA 및 QCA 분석 결과 (T2, T3)",
+    "section": "T3: 질적비교분석 (QCA)",
+    "text": "T3: 질적비교분석 (QCA)\n\n캘리브레이션\nfsQCA를 위해 연속변수는 직접 캘리브레이션(5th, 50th, 95th percentile)으로 퍼지셋 변환하고, 이분형 변수(DT부서_보유, DT교육_있음)는 크리스프셋으로 유지하였다.\n분석 표본: 282건\n조건 변수 (5개)\n\n\n\n조건\n유형\n변환\n\n\n\n\nDT인식_합산\nFuzzy\n직접 캘리브레이션\n\n\n스마트시스템_합산\nFuzzy\n직접 캘리브레이션\n\n\n교육훈련수준\nFuzzy\n직접 캘리브레이션\n\n\nDT부서_보유\nCrisp\n이분형 (0/1)\n\n\nDT교육_있음\nCrisp\n이분형 (0/1)\n\n\n\nOutcome: Q3_전후차이 (M=1.45, SD=1.21)\n\n\n필요조건 분석\nConsistency &gt; 0.9 기준으로 필요조건을 검토하였다.\n\n\n충분조건 분석: 8개 경로\nTruth table 분석 결과, 높은 교육효과(Q3 전후차이)를 달성하는 8개의 충분 경로가 도출되었다.\n\n\n\n기준\n값\n\n\n\n\nRaw consistency\n&gt; 0.80\n\n\nPRI\n&gt; 0.75\n\n\nSolution coverage\n&gt; 0.25\n\n\n\n\n\n등결과성(Equifinality) 확인\n8개 경로의 존재는 동일한 결과(높은 교육효과)에 도달하는 다양한 조건 조합이 존재함을 의미한다. 이는 DT 준비도와 교육효과의 관계가 단순 선형이 아닌 구성적(configurational)임을 입증한다.\n핵심 함의:\n\nDT 인식이 낮더라도 다른 조건(추진부서, 교육경험 등)의 조합으로 높은 효과 달성 가능\n단일 변수의 효과가 아닌 조건 조합의 효과로 접근해야 함\nT0에서 발견된 “DT인식↔︎교육효과 약한 상관”의 원인을 설명\n\n\n\n강건성 검정\nConsistency 기준을 변동(0.75, 0.80, 0.85)시켜 경로의 안정성을 확인하였다.\n\n\nXY Plot\n퍼지셋 멤버십 점수를 기반으로 한 XY Plot을 통해 충분조건의 시각적 확인을 수행하였다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "LPA 및 QCA 분석 결과 (T2, T3)"
+    ]
+  },
+  {
+    "objectID": "ar_lpa_qca.html#t2-t3-연계-person-centered-configuration-통합",
+    "href": "ar_lpa_qca.html#t2-t3-연계-person-centered-configuration-통합",
+    "title": "LPA 및 QCA 분석 결과 (T2, T3)",
+    "section": "T2-T3 연계: Person-centered + Configuration 통합",
+    "text": "T2-T3 연계: Person-centered + Configuration 통합\nLPA에서 도출된 프로파일 소속을 QCA의 조건변수로 추가 투입하여 분석을 확장할 수 있다. “적극 전환형” 프로파일 소속이 높은 교육효과의 충분조건 일부로 작동하는지 검증하는 후속 분석이 가능하다.\n이 통합 접근은 Person-centered approach(LPA)와 Configurational approach(QCA)를 결합한 방법론적 차별성을 갖는다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "LPA 및 QCA 분석 결과 (T2, T3)"
+    ]
+  },
+  {
+    "objectID": "ar_longitudinal.html",
+    "href": "ar_longitudinal.html",
+    "title": "종단 분석 결과 (T4)",
+    "section": "",
+    "text": "T4: 복수참여 기업 종단 분석\n최종 업데이트: 2026-03-28",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "종단 분석 결과 (T4)"
+    ]
+  },
+  {
+    "objectID": "ar_longitudinal.html#t4-복수참여-기업-종단-분석",
+    "href": "ar_longitudinal.html#t4-복수참여-기업-종단-분석",
+    "title": "종단 분석 결과 (T4)",
+    "section": "",
+    "text": "데이터 현황\n\n\n\n구분\n기업 수\n레코드\n비고\n\n\n\n\n전체 표본\n219개\n282건\n\n\n\n2회+ 참여\n48개\n111건\n주 분석 대상\n\n\n3회 참여\n14개\n43건\n궤적 분석/사례연구\n\n\n\n\n\n대응표본 t-검정 결과 (첫 참여 vs 최근 참여)\n48개 복수참여 기업의 첫 참여 시점과 최근 참여 시점의 주요 변수를 비교하였다.\n\n\n\n\n\n\n\n\n\n\n\n\n변수\n향상\n동일\n하락\nM변화\nd\n판정\n\n\n\n\n교육훈련수준\n26\n16\n5\n+0.77\n0.60\n중간 효과\n\n\n직무전환_필요성\n25\n14\n8\n+0.47\n-\n소~중 효과\n\n\nDT인식_산업분야이해\n21\n21\n5\n+0.43\n-\n소 효과\n\n\n만족도_총합\n19\n4\n24\n+0.02\n-\n무효과 (천장)\n\n\n\n교육훈련수준의 평균 +0.77 향상(Cohen’s d = 0.60)은 중간 수준의 효과크기로, 반복참여가 교육훈련 역량 향상에 의미있는 기여를 하고 있음을 시사한다.\n\n\n평균 회귀(Regression to Mean) 효과\n초기 교육훈련수준이 낮은 기업일수록 변화량이 크게 나타나는 패턴이 관찰되었다. 이는 순수한 교육 효과 외에 평균 회귀(regression to mean) 효과가 혼재되어 있을 가능성을 시사한다.\n변화량 예측 Baseline Regression을 통해 초기수준을 통제한 후의 순수 변화 효과를 추정하였다.\n\n\n변화 패턴 유형화 (3회 참여 기업)\n14개 3회 참여 기업을 대상으로 변화 궤적을 유형화하였다.\n\n\n\n유형\n궤적 패턴\n기업 수\n특징\n\n\n\n\n지속 성장형\n2→3→4\n3~4개\n매 참여 시 꾸준한 향상\n\n\n초기 도약형\n1→3→3\n3~4개\n첫 참여 후 급상승, 이후 안정\n\n\n정체형\n1→1→1\n3~4개\n참여에도 변화 없음\n\n\n하향형\n3→3→2\n1~2개\n오히려 하락\n\n\n\n\n\n변화 궤적 시각화\nSpaghetti Plot과 Dumbbell Plot을 통해 개별 기업의 변화 궤적을 시각화하였다. 기업 간 변화 패턴의 이질성이 크며, 평균적 향상 경향 이면에 다양한 개별 궤적이 존재한다.\n\n\n해석\n\n반복참여의 누적 효과 확인: 교육훈련수준 평균 +0.77 향상은 통계적으로 유의하며 실질적 의미가 있다.\n이질적 변화 패턴: 모든 기업이 향상하는 것이 아니며, 정체형(1→1→1)과 하향형(3→3→2)도 존재한다.\n초기수준 효과: 초기 수준이 낮은 기업에서 변화가 크게 나타나며, 이는 교육 효과와 평균 회귀의 복합 결과로 해석된다.\n흡수역량(Absorptive Capacity) 관점: 사전 지식이 있는 기업(높은 초기수준)은 추가 학습 효과가 체감되지만, 초기 지식이 부족한 기업은 기초적 역량 형성에서 큰 변화를 경험한다.\n\n\n\n다른 분석과의 연계\n\nT2 LPA: 프로파일별 종단 변화 패턴의 차이 확인\nT5 STM: 복수참여 기업의 DT 애로사항 텍스트 변화 추적\nT8-2-3 PSM: 복수참여 여부의 인과적 효과 추정",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "종단 분석 결과 (T4)"
+    ]
+  },
+  {
+    "objectID": "ar_text_network.html",
+    "href": "ar_text_network.html",
+    "title": "텍스트 및 네트워크 분석 결과 (T5, T6)",
+    "section": "",
+    "text": "T5: 구조적 토픽 모델링 (STM)\n최종 업데이트: 2026-03-28",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "텍스트 및 네트워크 분석 결과 (T5, T6)"
+    ]
+  },
+  {
+    "objectID": "ar_text_network.html#t5-구조적-토픽-모델링-stm",
+    "href": "ar_text_network.html#t5-구조적-토픽-모델링-stm",
+    "title": "텍스트 및 네트워크 분석 결과 (T5, T6)",
+    "section": "",
+    "text": "분석 개요\nK-하이테크 플랫폼 참여 중소기업의 DT 애로사항 자유기술 텍스트를 대상으로 구조적 토픽 모델(STM)을 적용하였다.\n\n\n\n항목\n내용\n\n\n\n\n분석 텍스트\nDT 애로사항 (281건, 평균 314자)\n\n\n형태소 분석\nmecab-ko (명사 추출)\n\n\n최적 토픽 수\nk=7\n\n\n공변량\n11개 (연도, 기업규모, DT대응수준 등)\n\n\n\n추가 분석 텍스트: TO_BE(254건), 성과상세(239건), AS_IS(254건)\n\n\n7개 토픽 구조\n\n\n\n\n\n\n\n\n토픽\n명칭\n핵심 내용\n\n\n\n\n1\n제조 현장의 디지털 전환 장벽\n사출 등 제조 현장에서 DT 적용의 물리적/기술적 장벽\n\n\n2\n데이터 관리 및 수집 역량 부족\n데이터 수집, 저장, 활용 역량의 부재\n\n\n3\n디지털 인재 확보의 구조적 한계\n전문 인력 채용 어려움, 중소기업 구조적 제약\n\n\n4\n기존 인력의 적응과 저항\n근로자의 변화 저항, 디지털 리터러시 부족\n\n\n5\n스마트 팩토리 구축 장벽\n스마트팩토리 도입 비용, 기술 선택, 인프라 문제\n\n\n6\n품질 결함 관리의 디지털 전환\n불량 관리, 품질 검사 자동화 필요성\n\n\n7\n교육훈련 프로그램의 실효성\n교육 내용과 현장 간 괴리, 맞춤형 교육 필요\n\n\n\n\n\n공변량 효과 (11개)\n공변량: 연도, 기업규모(상시근로자수), DT대응수준, 교육훈련수준, SF도입여부, DT추진부서보유, DT교육경험, 업종, 스마트시스템 수준, DT인식 합산, 교육훈련 필요성\n공변량에 따른 토픽 비율(prevalence)의 차이가 확인되었다. 특히 기업규모와 DT대응수준이 토픽 구성에 유의한 영향을 미쳤다.\n\n\nLPA 프로파일별 토픽 차별화\nT2 LPA에서 도출된 3개 프로파일별로 DT 애로사항 토픽 비율이 차별적 패턴을 보였다:\n\nDT 미인식형: 기본적 인프라/인력 문제(토픽 3, 4) 비중 높음\n인식-미실행형: 데이터/스마트팩토리 장벽(토픽 2, 5) 비중 높음\n적극 전환형: 품질/교육 실효성(토픽 6, 7) 비중 높음\n\n이는 기업의 DT 성숙도에 따라 직면하는 애로사항의 질적 구조가 다름을 의미한다.\n\n\n복수참여 기업 텍스트 변화\nT4 종단분석과 연계하여, 복수참여 기업의 참여 시점 간 DT 애로사항 텍스트 변화를 추적하였다. 반복 참여에 따라 토픽 구성이 “기초 인프라 문제 → 고급 활용 문제”로 이동하는 패턴이 관찰되었다.\n\n\n민감도 분석\n토픽 수(k)를 5~15로 변동시켜 결과의 강건성을 확인하였다. k=7이 semantic coherence와 exclusivity의 최적 균형점으로 유지되었다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "텍스트 및 네트워크 분석 결과 (T5, T6)"
+    ]
+  },
+  {
+    "objectID": "ar_text_network.html#t6-네트워크-분석",
+    "href": "ar_text_network.html#t6-네트워크-분석",
+    "title": "텍스트 및 네트워크 분석 결과 (T5, T6)",
+    "section": "T6: 네트워크 분석",
+    "text": "T6: 네트워크 분석\n\n분석 개요\n18개 노드(DT기술 + DT기대효과 + DT필요교육)의 이분형 복수응답 데이터를 기반으로 공동출현 네트워크를 구성하였다.\n\n\n네트워크 구조\n\n\n\n지표\n값\n해석\n\n\n\n\n노드 수\n18개\nDT기술(10) + DT기대효과(7) + DT필요교육\n\n\n네트워크 밀도\n0.719\n고밀도 (대부분의 기술이 서로 연결)\n\n\n주요 허브\n빅데이터(62.4%)\n가장 높은 중심성\n\n\n\n\n\n주요 공동출현 패턴\n\n\n\n기술 쌍\n공동출현 건수\n\n\n\n\n업무효율화 + 생산최적화\n175건\n\n\n빅데이터 + 사물인터넷\n52건\n\n\n빅데이터 + 로봇공학\n42건\n\n\n인공지능 + 사물인터넷\n34건\n\n\n\n\n\n허브 기술: 중심성 분석\n빅데이터가 degree, betweenness, closeness 중심성 모두에서 최상위를 차지하였다. 이는 빅데이터가 다른 기술들과의 연결을 매개하는 “허브” 역할을 수행함을 의미한다.\n\n\n커뮤니티 탐지 (Louvain Algorithm)\nLouvain 알고리즘을 통해 3개의 기술 커뮤니티가 탐지되었다. 각 커뮤니티는 자연적 기술 군집을 형성하며, 이는 기업들의 기술 수요가 특정 패턴으로 묶여 나타남을 보여준다.\n\n\nMCA (다중대응분석)\nFactoMineR의 MCA를 통해 기술수요의 잠재 차원을 추출하였다. 2차원 biplot에서 기업들의 공간적 분포와 기술 항목의 좌표를 확인하였다.\n\n\n기업규모별 기술수요 패턴\n기업규모에 따라 기술수요 패턴이 차별적으로 나타났다. 대규모 기업은 AI/클라우드 수요가 상대적으로 높고, 소규모 기업은 빅데이터/사물인터넷 중심의 수요를 보였다.\n\n\n연관분석 (Association Rules)\nApriori 알고리즘을 통해 기술수요 항목 간 연관규칙을 도출하였다. 높은 지지도(support)와 신뢰도(confidence)를 가진 규칙들이 정책적 시사점을 제공한다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "텍스트 및 네트워크 분석 결과 (T5, T6)"
+    ]
+  },
+  {
+    "objectID": "ar_text_network.html#t5-t6-연계",
+    "href": "ar_text_network.html#t5-t6-연계",
+    "title": "텍스트 및 네트워크 분석 결과 (T5, T6)",
+    "section": "T5-T6 연계",
+    "text": "T5-T6 연계\n텍스트 분석(T5)에서 도출된 비정형 애로사항 토픽 구조와 네트워크 분석(T6)에서 도출된 정형 기술수요 패턴을 비교하면:\n\n구조화 데이터(T6): 기업이 선택한 기술수요는 빅데이터 중심의 고밀도 네트워크\n비구조화 데이터(T5): 실제 애로사항은 인력/인프라/데이터 역량 부족이 주\n\n이 괴리는 중소기업의 “희망하는 기술”과 “실제 직면하는 문제” 사이의 갭을 보여주며, 교육 프로그램 설계에 중요한 시사점을 제공한다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "텍스트 및 네트워크 분석 결과 (T5, T6)"
+    ]
+  },
+  {
+    "objectID": "ar_causal.html",
+    "href": "ar_causal.html",
+    "title": "인과추론 분석 결과 (T8)",
+    "section": "",
+    "text": "T8-1: 패널 회귀분석\n최종 업데이트: 2026-03-28",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "인과추론 분석 결과 (T8)"
+    ]
+  },
+  {
+    "objectID": "ar_causal.html#t8-1-패널-회귀분석",
+    "href": "ar_causal.html#t8-1-패널-회귀분석",
+    "title": "인과추론 분석 결과 (T8)",
+    "section": "",
+    "text": "분석 개요\n전체 282건(48개 복수참여 기업 포함)을 대상으로 패널 회귀분석을 실시하였다. 동일 기업의 반복 관측이 존재하므로 기업 수준의 비관측 이질성(unobserved heterogeneity)을 통제하기 위해 세 가지 모형을 비교하였다.\n\n\n\n모형\n방법\n특징\n\n\n\n\nPooled OLS\n클러스터 강건 표준오차\n기업 간 상관 보정\n\n\nRandom Effects (RE)\nGLS\n기업 효과를 확률변수로\n\n\nFixed Effects (FE)\nWithin 추정\n기업 고정효과 통제\n\n\n\n\n\nDV: 현업적용도_조직환경\nPooled OLS(cluster SE) 결과, DT인식_합산, 교육훈련수준, 스마트시스템_합산, 상시근로자수, 연도를 투입하여 조직환경에 대한 예측력을 검정하였다.\n\n\nDV: Q3_전후차이\nQ3 전후차이에 대해서도 동일한 모형 비교를 수행하였다.\n\n\nHausman 검정\nHausman 검정을 통해 RE와 FE 중 적합한 모형을 선택하였다. 검정 결과에 따라 최종 모형을 보고한다.\n\n\n주요 결과\n패널 회귀 분석에서 교육훈련수준이 현업적용도_조직환경에 유의한 영향을 미치는 것으로 확인되었다(p=.002). 이는 횡단 분석(T0, T1)에서 발견된 교육훈련수준→교육효과 관계가 패널 데이터에서도 지지됨을 의미한다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "인과추론 분석 결과 (T8)"
+    ]
+  },
+  {
+    "objectID": "ar_causal.html#t8-2-성향점수매칭-psm",
+    "href": "ar_causal.html#t8-2-성향점수매칭-psm",
+    "title": "인과추론 분석 결과 (T8)",
+    "section": "T8-2: 성향점수매칭 (PSM)",
+    "text": "T8-2: 성향점수매칭 (PSM)\n\n분석 목적\n관찰 데이터에서 처치(treatment)의 인과적 효과를 추정하기 위해 성향점수매칭(Propensity Score Matching)을 적용하였다. 3가지 처치 변수에 대해 독립적으로 PSM을 수행하였다.\n공통 설정:\n\n매칭 방법: Nearest neighbor\nCaliper: 0.2\n균형 진단: R cobalt 패키지\n도구: R MatchIt\n\n\n\nT8-2-1: DT 교육경험의 효과\n\n\n\n항목\n내용\n\n\n\n\n처치\nDT 교육경험 있음\n\n\n대조\nDT 교육경험 없음\n\n\nDV\n만족도, Q3 전후차이, 현업적용도_조직환경\n\n\n\nT0에서 확인된 “DT교육경험 있음 → 만족도 유의하게 높음(p=.007)”이 선택편향을 통제한 후에도 유지되는지 검증하였다.\n\n\nT8-2-2: 스마트팩토리 도입의 효과\n\n\n\n항목\n내용\n\n\n\n\n처치\n스마트팩토리 도입\n\n\n대조\n스마트팩토리 미도입\n\n\nDV\n만족도, Q3 전후차이, 현업적용도_조직환경\n\n\n\nT0에서 “SF도입 여부는 교육효과에 유의한 차이 없음”으로 확인되었으나, PSM을 통해 선택편향 통제 후 재검증하였다.\n\n\nT8-2-3: 복수참여의 효과\n\n\n\n항목\n내용\n\n\n\n\n처치\n2회 이상 참여\n\n\n대조\n1회 참여\n\n\nDV\n교육훈련수준, DT인식_합산, 스마트시스템_합산\n\n\n\nT4 종단분석에서 확인된 “반복참여의 누적 효과”가 선택편향을 통제한 후에도 유효한지 검증하였다.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "인과추론 분석 결과 (T8)"
+    ]
+  },
+  {
+    "objectID": "ar_causal.html#인과추론-결과-종합",
+    "href": "ar_causal.html#인과추론-결과-종합",
+    "title": "인과추론 분석 결과 (T8)",
+    "section": "인과추론 결과 종합",
+    "text": "인과추론 결과 종합\n\n패널 회귀 + PSM 3종 결과 비교\n\n\n\n\n\n\n\n\n분석\n핵심 결과\n인과성 수준\n\n\n\n\nT8-1 패널회귀\n교육훈련수준 → 조직환경 (p=.002)\n비관측 이질성 통제\n\n\nT8-2-1 PSM(DT교육)\nDT 교육경험의 효과 추정\n선택편향 통제\n\n\nT8-2-2 PSM(SF도입)\nSF 도입의 효과 추정\n선택편향 통제\n\n\nT8-2-3 PSM(복수참여)\n복수참여의 효과 추정\n선택편향 통제\n\n\n\n\n\n한계\n\n관찰 데이터의 본질적 한계: PSM은 관찰 가능한 공변량에 대해서만 선택편향을 통제. 비관찰 요인(기업 문화, CEO 의지 등)에 의한 편향은 잔존.\n표본 크기 제약: 일부 PSM에서 매칭 후 표본이 크게 감소하여 통계적 검정력이 제한될 수 있음.\n외적 타당도: K-하이테크 플랫폼 참여 기업은 자기선택(self-selection)된 표본이므로, 전체 중소기업 모집단에 대한 일반화에 주의 필요.",
+    "crumbs": [
+      "Analysis Results (1차: T0~T9)",
+      "인과추론 분석 결과 (T8)"
+    ]
+  },
+  {
+    "objectID": "ar_causal_2nd.html",
+    "href": "ar_causal_2nd.html",
+    "title": "2차 심화분석 결과 (T10~T21)",
+    "section": "",
+    "text": "분석 개요\n최종 업데이트: 2026-03-31\n1차 탐색 분석(T0~T9)에서 발견한 5대 패턴을 인과적으로 검증하고 구조적 메커니즘을 규명하기 위해 12개 심화 모형을 수행하였다.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "2차 심화분석 결과 (T10~T21)"
+    ]
+  },
+  {
+    "objectID": "ar_causal_2nd.html#분석-개요",
+    "href": "ar_causal_2nd.html#분석-개요",
+    "title": "2차 심화분석 결과 (T10~T21)",
+    "section": "",
+    "text": "구분\n1차 (T0~T9)\n2차 (T10~T21)\n\n\n\n\n목적\n“무엇이 일어나는가?”\n“왜? 인과적인가?”\n\n\n접근\n탐색, 상관, 준실험\n인과추론, 구조모형\n\n\n모형 수\n13개\n12개\n\n\n가설 검증\n-\n35건",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "2차 심화분석 결과 (T10~T21)"
+    ]
+  },
+  {
+    "objectID": "ar_causal_2nd.html#t10-m8-staggered-did-반복참여의-인과적-효과",
+    "href": "ar_causal_2nd.html#t10-m8-staggered-did-반복참여의-인과적-효과",
+    "title": "2차 심화분석 결과 (T10~T21)",
+    "section": "T10 (M8): Staggered DID — 반복참여의 인과적 효과",
+    "text": "T10 (M8): Staggered DID — 반복참여의 인과적 효과\n\n방법\n기업 고정효과 + 연도 고정효과를 동시에 통제하는 이중차분법(DID). 선택 편향과 시간 추세를 제거한 인과 추론.\n\n\n핵심 결과\nTWFE 추정: 3개 DV 모두 비유의\n\n\n\nDV\nAFTER B\nSE\np\n\n\n\n\nQ3_차이\n-0.592\n0.494\n.238\n\n\n교육훈련수준\n-0.372\n0.459\n.422\n\n\nDT인식_합산\n-0.154\n0.289\n.596\n\n\n\n용량-반응(Dose-Response): 극적 반전\n\n\n\nDV\n참여순서 B\np\n\n\n\n\nQ3_차이\n-0.198\n.337\n\n\n교육훈련수준\n0.636\n&lt;.001\n\n\nDT인식_합산\n0.339\n&lt;.001\n\n\n\n참여 1회 추가당 교육훈련 +0.64점, DT인식 +0.34점. 그러나 Q3_차이는 여전히 비유의.\n\n교육은 인식과 교육 수준을 인과적으로 올리지만, 자기보고 역량변화로는 나타나지 않는다.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "2차 심화분석 결과 (T10~T21)"
+    ]
+  },
+  {
+    "objectID": "ar_causal_2nd.html#t11t13-선형-경로-검증-dt인식에서-q3_차이까지",
+    "href": "ar_causal_2nd.html#t11t13-선형-경로-검증-dt인식에서-q3_차이까지",
+    "title": "2차 심화분석 결과 (T10~T21)",
+    "section": "T11~T13: 선형 경로 검증 — DT인식에서 Q3_차이까지",
+    "text": "T11~T13: 선형 경로 검증 — DT인식에서 Q3_차이까지\n\nT11 (M1): 기본 회귀\nDT인식 → Q3_차이: B=-0.017, p=.879. 소수점 둘째 자리에서 0.00. 1차(T1)의 null 재확인.\n\n\nT12 (M2): 매개분석\nDT인식 → 조직환경 → Q3_차이: 간접효과(ACME) = 0.017, p=.422. 매개 경로도 차단.\n\n\nT13 (M12): 순차매개\nDT인식 → DT교육경험 → 인적자본 → Q3_차이: 첫 고리(a=0.716, p&lt;.001)만 유의. 나머지 경로 모두 차단.\n\nDT인식에서 Q3_차이까지의 경로는 직접이든 매개든 순차든 모두 차단되어 있다.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "2차 심화분석 결과 (T10~T21)"
+    ]
+  },
+  {
+    "objectID": "ar_causal_2nd.html#t14t16-더-많이-가진-기업-역효과의-메커니즘",
+    "href": "ar_causal_2nd.html#t14t16-더-많이-가진-기업-역효과의-메커니즘",
+    "title": "2차 심화분석 결과 (T10~T21)",
+    "section": "T14~T16: “더 많이 가진 기업” 역효과의 메커니즘",
+    "text": "T14~T16: “더 많이 가진 기업” 역효과의 메커니즘\n\nT14 (M5): 대기업 역설\n기업규모 3등분: 소기업 B=+0.203, 중기업 B=+0.129, 대기업 B=-0.282(p=.099). 효과 방향이 역전.\n\n\nT15 (M4): SF x 복수참여 역시너지\n2x2 ANOVA: F=8.285, p=.004. SF도입+복수참여 기업의 Q3_차이가 4그룹 중 최저(M=0.994). “가장 열심히 하는 기업”이 가장 적게 변했다.\n\n\nT16 (M6): 흡수역량 포화\nDT부서 보유 기업에서 DT인식 → 조직환경 경로가 소멸(B=0.014, 비유의). 인프라가 이미 갖춰지면 인식의 한계효용은 0에 수렴.\n\n자원이 풍부한 기업에서 교육효과가 약화되는 것은 측정의 문제이자 구조적 필연이다.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "2차 심화분석 결과 (T10~T21)"
+    ]
+  },
+  {
+    "objectID": "ar_causal_2nd.html#t17-m7-toe-경로분석",
+    "href": "ar_causal_2nd.html#t17-m7-toe-경로분석",
+    "title": "2차 심화분석 결과 (T10~T21)",
+    "section": "T17 (M7): TOE 경로분석",
+    "text": "T17 (M7): TOE 경로분석\n\nTOE 내부: 강한 선순환\n\n\n\n경로\nbeta\np\n\n\n\n\nT(DT인식) → O(교육훈련)\n.32~.49\n유의\n\n\nO(교육훈련) → E(스마트시스템)\n.32~.49\n유의\n\n\nT(DT인식) → E(스마트시스템)\n.32~.49\n유의\n\n\n\n\n\nTOE → DV: 전멸\n\n\n\n경로\nB\np\n\n\n\n\nT → Q3_차이\n0.004\n.976\n\n\nO → Q3_차이\n비유의\n\n\n\nE → Q3_차이\n비유의\n\n\n\n\n\nTOE 변수들은 서로를 잘 예측하지만, 역량변화를 예측하지 못한다.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "2차 심화분석 결과 (T10~T21)"
+    ]
+  },
+  {
+    "objectID": "ar_causal_2nd.html#t18-m3-순서-로지스틱-비선형-전환",
+    "href": "ar_causal_2nd.html#t18-m3-순서-로지스틱-비선형-전환",
+    "title": "2차 심화분석 결과 (T10~T21)",
+    "section": "T18 (M3): 순서 로지스틱 — 비선형 전환",
+    "text": "T18 (M3): 순서 로지스틱 — 비선형 전환\n교육훈련수준 → 역량변화(순서형): OR=1.411, p=.016. 교육훈련 1단위 증가 시 “높은 역량변화” 확률 41.1% 증가.\n연속형 분석에서 비유의였던 것이 순서형에서 유의 → 교육효과는 연속적이 아니라 단계적(threshold).",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "2차 심화분석 결과 (T10~T21)"
+    ]
+  },
+  {
+    "objectID": "ar_causal_2nd.html#t19t20-유형과-경로",
+    "href": "ar_causal_2nd.html#t19t20-유형과-경로",
+    "title": "2차 심화분석 결과 (T10~T21)",
+    "section": "T19~T20: 유형과 경로",
+    "text": "T19~T20: 유형과 경로\n\nT19 (M9): LPA 4-class + 보상효과\n4프로파일에서 보상효과 발견: DT인식 낮지만 교육훈련 높은 프로파일이, DT인식 높지만 교육 낮은 프로파일보다 Q3_차이 높음.\n\n\nT20 (M10): QCA + DID 조건조합\nDID 처치변수(AFTER) 추가 후에도 3개 충분경로 확인. ~DT_AWARE(낮은 DT인식) 포함 경로 존재 → 1차(T3) 등결과성의 인과적 재확인.\n\nDT인식이 낮은 기업을 교육에서 배제하지 말라.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "2차 심화분석 결과 (T10~T21)"
+    ]
+  },
+  {
+    "objectID": "ar_causal_2nd.html#t21-m11-clpm-인과-방향",
+    "href": "ar_causal_2nd.html#t21-m11-clpm-인과-방향",
+    "title": "2차 심화분석 결과 (T10~T21)",
+    "section": "T21 (M11): CLPM — 인과 방향",
+    "text": "T21 (M11): CLPM — 인과 방향\nCross-Lagged Panel Model로 인과 방향 검증:\n\n\n\n\n\n\n\n\n경로\nbeta\n해석\n\n\n\n\nE → T (스마트시스템 → DT인식)\n.488*\n최강: 인프라가 인식을 만든다\n\n\nT → E (DT인식 → 스마트시스템)\n약함\n\n\n\nQ3 관련 경로\n비유의\n\n\n\n\n\n“의식이 존재를 결정하는 것이 아니라, 존재가 의식을 결정한다.” 인프라 도입 → 인식 자연 향상의 역방향 인과.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "2차 심화분석 결과 (T10~T21)"
+    ]
+  },
+  {
+    "objectID": "ar_causal_2nd.html#차-2차-연결-요약",
+    "href": "ar_causal_2nd.html#차-2차-연결-요약",
+    "title": "2차 심화분석 결과 (T10~T21)",
+    "section": "1차 → 2차 연결 요약",
+    "text": "1차 → 2차 연결 요약\n\n\n\n1차 발견\n2차 검증\nT번호\n결과\n\n\n\n\nDT인식→Q3 무효과\n기본회귀 재확인\nT11\nB=-0.017, p=.879\n\n\n조직환경 매개 가능성\n매개분석\nT12\nACME 비유의\n\n\nDT교육경험 조절(-)\n조절매개\nT16\nAC 역전\n\n\n프로파일 Q3 무차이\n4-class LPA\nT19\n보상효과 발견\n\n\n필요조건 없음\nQCA+DID\nT20\n3경로, ~DT_AWARE\n\n\n용량-반응 분리\nStaggered DID\nT10\nDose 유의, Q3 비유의\n\n\nSF도입 선택편향\n상호작용 분석\nT15\n역시너지 p=.004\n\n\nRE 스마트만 유의\nTOE 경로분석\nT17\n내부 유의, DV 전멸\n\n\n하향이동 우세\nCLPM 교차지연\nT21\nE→T beta=.488",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "2차 심화분석 결과 (T10~T21)"
+    ]
+  },
+  {
+    "objectID": "ar_synthesis.html",
+    "href": "ar_synthesis.html",
+    "title": "종합 해석 및 시사점",
+    "section": "",
+    "text": "1-2차 통합: 5대 관통 패턴\n최종 업데이트: 2026-03-31\n1차(T0~T9, 탐색) + 2차(T10~T21, 인과/구조) 총 25개 분석에서 5대 관통 패턴이 수렴하였다.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "종합 해석 및 시사점"
+    ]
+  },
+  {
+    "objectID": "ar_synthesis.html#차-통합-5대-관통-패턴",
+    "href": "ar_synthesis.html#차-통합-5대-관통-패턴",
+    "title": "종합 해석 및 시사점",
+    "section": "",
+    "text": "패턴 1: 인식-성과 단절\nDT인식 → Q3_차이(역량변화)의 선형 경로가 9개 모형에서 일관되게 차단:\n\n1차: T1 회귀 R2=.005, T2 프로파일 간 Q3 무차이\n2차: M1 B=-0.017(p=.879), M2 매개 ACME=0.017(p=.422), M7 TOE DV 전멸, M13 순차매개 단절\n\n\n\n패턴 2: 더 많이 가진 그룹 역효과\n자원/경험이 풍부한 기업에서 오히려 교육효과 약화:\n\n1차: T2 고준비 프로파일 Q3 무차이, T8_2_2 SF도입 ATT=0\n2차: M4(T15) SF x 복수참여 역시너지 F=8.285, p=.004, M5(T14) 대기업 역설 B=-0.282, M6(T16) 흡수역량 포화\n\n\n\n패턴 3: TOE 내부만 강함\nTOE(T, O, E) 변수 간 상관은 강하나 DV로의 경로가 차단:\n\n1차: T5 기술장벽 53%, TOE 변수 간 상관 유의\n2차: M7(T17) beta=.32~.49(유의), DV 경로 모두 비유의\n\n\n\n패턴 4: 용량-반응 분리\n교육 반복 → 인식/인프라는 올라가지만 Q3_차이는 변화 없음:\n\n1차: T4 DT인식 d=.55(유의) vs Q3 비유의\n2차: M8(T10) DID 교육훈련 B=0.636(p&lt;.001) vs Q3 B=-0.198(비유의), M11(T21) CLPM E→T beta=.488\n\n4가지 방법론(대응비교, PSM, DID, CLPM) 수렴 = 최강 삼각검증.\n\n\n패턴 5: 등결과성\n높은 교육효과에 도달하는 다중 경로. 필요조건 없음:\n\n1차: T3 QCA 다경로, ~DT_AWARE 포함\n2차: M10(T20) DID 조건 추가 후에도 3경로 재확인",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "종합 해석 및 시사점"
+    ]
+  },
+  {
+    "objectID": "ar_synthesis.html#차-분석-가설-검증-결과-35건",
+    "href": "ar_synthesis.html#차-분석-가설-검증-결과-35건",
+    "title": "종합 해석 및 시사점",
+    "section": "2차 분석 가설 검증 결과 (35건)",
+    "text": "2차 분석 가설 검증 결과 (35건)\n\n\n\n결과\n건수\n비율\n해석\n\n\n\n\n채택\n14\n40%\n가설대로 유의\n\n\n기각\n14\n40%\n기대 효과 없음\n\n\n역전\n5\n14%\n기대 반대 방향\n\n\n경계적\n2\n6%\np=.05~.10\n\n\n\n“채택 40%, 기각 40%”: 기존 이론과 상식의 절반이 데이터에 의해 지지되지 않았다. 5건의 역전은 단순한 “효과 없음”보다 더 도발적 결과.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "종합 해석 및 시사점"
+    ]
+  },
+  {
+    "objectID": "ar_synthesis.html#차-분석-7대-핵심-발견-원본",
+    "href": "ar_synthesis.html#차-분석-7대-핵심-발견-원본",
+    "title": "종합 해석 및 시사점",
+    "section": "1차 분석 7대 핵심 발견 (원본)",
+    "text": "1차 분석 7대 핵심 발견 (원본)\n\n발견 1: DT 준비도와 교육효과의 비선형 관계\nDT 인식 수준(IV)과 교육 효과(DV: Q3 전후차이) 간 상관이 r = -.13~+.08으로 매우 약하거나 무의미하다(T0). 이는 DT 준비도가 교육 효과를 직접 예측하지 못함을 의미하며, 단순 회귀 모형의 설명력이 제한적이다.\n그러나 QCA(T3)에서 8개의 충분 경로가 도출됨으로써, DT 준비도는 다른 조건들과의 조합을 통해 교육 효과에 영향을 미침이 확인되었다. 이는 변수중심(variable-centered) 접근이 아닌 구성적(configurational) 접근의 필요성을 입증한다.\n\n\n발견 2: 3유형 잠재 프로파일\nLPA(T2) 결과 “DT 미인식형”, “인식-미실행형”, “적극 전환형” 3개 프로파일이 도출되었다(Entropy = 0.846). 프로파일별 교육 효과가 차별적이며, 이는 중소기업의 DT 준비도가 연속적 스펙트럼이 아닌 질적으로 구분되는 유형으로 존재함을 보여준다.\n\n\n발견 3: 등결과성(Equifinality)\nQCA(T3)에서 8개의 충분 경로가 확인되었다. 이는 높은 교육효과에 도달하는 “하나의 최적 경로”가 아니라 다양한 조건 조합이 동등하게 효과적임을 의미한다. 정책적으로는 획일적 지원이 아닌 기업 맥락에 맞는 맞춤형 접근이 필요하다.\n\n\n발견 4: 반복참여의 누적 효과\n복수참여 기업(48개)의 교육훈련수준이 평균 +0.77 향상(d=0.60, 중간 효과크기)되었다(T4). 그러나 평균 회귀(regression to mean) 효과가 혼재되어 있으며, 3회 참여 기업의 궤적 유형화에서 정체형/하향형도 존재하여 반복참여가 자동적 향상을 보장하지는 않음이 확인되었다.\n\n\n발견 5: DT 애로사항의 7대 토픽 구조\nSTM(T5)에서 7개 토픽이 도출되었으며, 기업의 DT 성숙도(LPA 프로파일)에 따라 토픽 구성이 질적으로 달라진다. DT 미인식형은 인력/인프라 문제가, 적극 전환형은 품질/교육 실효성 문제가 두드러진다. 이는 기업 발달 단계별 차별적 지원 전략의 근거를 제공한다.\n\n\n발견 6: 기술수요 네트워크의 고밀도 구조\n네트워크 분석(T6)에서 밀도 0.719의 고밀도 네트워크가 확인되었으며, 빅데이터(62.4%)가 허브 기술로 작동한다. 3개 커뮤니티가 탐지되어 기술수요가 특정 패턴으로 군집됨을 보여준다. 정형 데이터(기술수요)와 비정형 데이터(애로사항 텍스트) 간의 괴리는 “희망 기술”과 “실제 문제” 사이의 갭을 드러낸다.\n\n\n발견 7: 교육훈련 필요성-수준 갭\nIPA(T7)에서 교육필요성(M=4.36) vs 교육수준(M=2.52) = 1.84점 갭이 확인되었다. 스마트시스템 7영역 중 설비자동화가 4년 연속 최저 수준을 기록하며, 2022→2023 대폭 상승 후 정체/하락 추세가 관찰된다.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "종합 해석 및 시사점"
+    ]
+  },
+  {
+    "objectID": "ar_synthesis.html#방법론적-삼각검증-달성",
+    "href": "ar_synthesis.html#방법론적-삼각검증-달성",
+    "title": "종합 해석 및 시사점",
+    "section": "방법론적 삼각검증 달성",
+    "text": "방법론적 삼각검증 달성\n\n\n\n\n\n\n\n\n차원\n방법\n트랙\n\n\n\n\n방법론 삼각검증\n변수중심 + 사람중심 + 조건조합 + 텍스트\nT0,T1 + T2 + T3 + T5\n\n\n데이터 삼각검증\n횡단 + 종단 + 인과추론\nT0~T3 + T4 + T8\n\n\n분석수준 삼각검증\n개인수준 + 기업수준 + 텍스트수준\n설문 + 패널 + 비정형\n\n\n\n13개 분석 트랙을 통해 3가지 차원의 삼각검증을 달성하였으며, 이는 연구 결과의 신뢰성과 타당성을 높인다.",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "종합 해석 및 시사점"
+    ]
+  },
+  {
+    "objectID": "ar_synthesis.html#논문-추천-5편-전략-1-2차-통합-기반-우선순위-순",
+    "href": "ar_synthesis.html#논문-추천-5편-전략-1-2차-통합-기반-우선순위-순",
+    "title": "종합 해석 및 시사점",
+    "section": "논문 추천: 5편 전략 (1-2차 통합 기반, 우선순위 순)",
+    "text": "논문 추천: 5편 전략 (1-2차 통합 기반, 우선순위 순)\n\nPaper 1: 용량-반응 분리와 측정의 문제 (최우선)\n\n\n\n\n\n\n\n항목\n내용\n\n\n\n\n주제\n중소기업 DT 교육은 효과가 없는가? 5가지 방법론으로 밝힌 용량-반응 분리\n\n\n분석\nT4(대응비교) + T8(PSM) + T10(DID) + T21(CLPM)\n\n\n이론\n경험학습 + Kirkpatrick 4단계 + 동적역량\n\n\n핵심\n5-방법론 삼각검증: 교육→인식/인프라 유의, 교육→Q3 null\n\n\n타겟\nHRDQ (SSCI Q1), HRM (SSCI Q1)\n\n\n\n\n\nPaper 2: TOE-Fit 비선형 확장\n\n\n\n\n\n\n\n항목\n내용\n\n\n\n\n주제\nTOE Framework의 비선형 확장: T x E 적합도가 교육효과를 결정하는가?\n\n\n분석\nM7(선형 경로) + RSM C1(교차항) + combo1(P-E Fit)\n\n\n이론\nTOE + P-E Fit + Digital Maturity\n\n\n핵심\nTOE 선형 DV 전멸 → T x E 교차항 p=.002 (비선형 복원)\n\n\n타겟\nTFSC (SSCI Q1), IJIM (SSCI Q1)\n\n\n\n\n\nPaper 3: 기업규모 역U자와 맞춤형 전략\n\n\n\n\n\n\n\n항목\n내용\n\n\n\n\n주제\n중소기업 DT 교육의 최적 규모: 역U자 효과와 차별적 지원 전략\n\n\n분석\nM5(조절회귀) + T15(ANOVA) + T16(조절매개) + RSM B1(역U자)\n\n\n이론\nLiability of Smallness + Resource Orchestration + Optimal Distinctiveness\n\n\n핵심\n기업규모 역U자 p=.029, 최적 ~13명. 대기업 역설\n\n\n타겟\nSmall Business Economics (SSCI Q1), ISBJ (SSCI Q1)\n\n\n\n\n\nPaper 4: 등결과성과 보상효과 — 다경로 교육 전략\n\n\n\n항목\n내용\n\n\n\n\n주제\n교육효과 달성의 다중 경로: QCA + LPA + RSM 삼각검증\n\n\n분석\nT3(QCA) + T20(QCA+DID) + T2/T19(LPA) + RSM 등고선\n\n\n이론\nEquifinality + Person-Centered + P-E Fit\n\n\n핵심\n필요조건 없음, ~DT_AWARE 유효, 보상효과\n\n\n타겟\nORM (SSCI Q1), JBR (SSCI Q1)\n\n\n\n\n\nPaper 5: 스마트시스템 도입의 최적 조건\n\n\n\n항목\n내용\n\n\n\n\n주제\n중소기업 스마트시스템 도입의 결정요인: 교육훈련 역U자 효과\n\n\n분석\nRSM A2(R2=.517) + T18(순서로지스틱) + T8_1(패널)\n\n\n이론\nDigital Maturity + TOE(T→E) + RBV\n\n\n핵심\n교육훈련 역U자 p&lt;.001, 최적 3.6점\n\n\n타겟\nJMTM (SSCI Q1), IJPE (SSCI Q1)",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "종합 해석 및 시사점"
+    ]
+  },
+  {
+    "objectID": "ar_synthesis.html#정책적-시사점-1-2차-통합",
+    "href": "ar_synthesis.html#정책적-시사점-1-2차-통합",
+    "title": "종합 해석 및 시사점",
+    "section": "정책적 시사점 (1-2차 통합)",
+    "text": "정책적 시사점 (1-2차 통합)\n\n인식-인프라 갭 진단: DT인식과 스마트시스템의 적합도(fit)가 교육효과의 핵심. 기업별 갭 진단 후 부족한 차원을 보완하는 맞춤형 개입 필요\n인프라 우선 전략: CLPM(T21)에서 E→T(인프라→인식)가 최강 경로. 인식 교육보다 인프라 구축 지원이 선행되어야 함\n최적 규모 타깃팅: 기업규모 역U자(최적 ~13명). 중간 규모 소기업에 교육 투자를 집중하면 효과 극대화\n교육 과잉 방지: 교육훈련 수준 3.6점 이상 기업에는 추가 교육보다 실행/적용 지원이 효과적\nDT 미인식 기업 포기 금지: 등결과성(~DT_AWARE 경로)에 의해 DT인식이 낮아도 조직적 지원으로 교육효과 달성 가능\nSF+복수참여 역시너지 모니터: 가장 열심히 하는 기업에서 역효과 발생. 천장효과와 참조 기준 이동 관리 필요\n측정 도구 개선: Q3_차이(단일 자기보고) → 객관적 행동 지표, 조직 수준 성과 데이터, 다시점 추적 필요",
+    "crumbs": [
+      "Analysis Results (2차: T10~T21)",
+      "종합 해석 및 시사점"
+    ]
+  },
+  {
+    "objectID": "pp_product.html",
+    "href": "pp_product.html",
+    "title": "산출물",
+    "section": "",
+    "text": "주요 산출물 목록\n최종 업데이트: 2026-03-28",
+    "crumbs": [
+      "산출물"
+    ]
+  },
+  {
+    "objectID": "pp_product.html#주요-산출물-목록",
+    "href": "pp_product.html#주요-산출물-목록",
+    "title": "산출물",
+    "section": "",
+    "text": "1. 종합 분석 문서\n\n\n\n\n\n\n\n\n산출물\n형식\n위치\n\n\n\n\n종합해석 및 판단\nMD\ndocs/05_분석/분석결과정리/분석결과리포트/\n\n\nK-하이테크 분석결과 보고서\nMD\ndocs/05_분석/분석결과정리/분석결과리포트/\n\n\n\n\n\n2. 1차 임시분석 보고서\n\n\n\n산출물\n형식\n특징\n\n\n\n\n1차_임시분석_보고서\nQMD (apaquarto)\nAPA 양식 학술 보고서\n\n\n1차_임시분석_보고서_해설\nQMD (narrative)\n해설형 서술 보고서\n\n\n\n위치: docs/05_분석/분석결과정리/분석결과리포트/1차_임시분석_보고서/\n\n\n3. 분석 트랙별 QMD 보고서 (16개)\n각 보고서는 4개 포맷(HTML, PDF, DOCX, MD)으로 렌더링되어 총 64개 파일이 생성되었다.\n\n\n\n#\n보고서\n트랙\n\n\n\n\n1\nT0_01_기술통계\nT0\n\n\n2\nT0_02_상관분석\nT0\n\n\n3\nT1_교육효과_01_요인분석\nT1\n\n\n4\nT1_교육효과_02_집단비교\nT1\n\n\n5\nT1_교육효과_03_현업적용도구인\nT1\n\n\n6\nT1_교육효과_04_과정유형비교\nT1\n\n\n7\nT2LPA_프로파일_01_LPA분석보고서\nT2\n\n\n8\nT3QCA_조건조합_01_QCA분석보고서\nT3\n\n\n9\nT4_복수참여_01_종단분석보고서\nT4\n\n\n10\nT5_애로사항_01_텍스트분석보고서\nT5\n\n\n11\nT6_기술수요_01_네트워크분석보고서\nT6\n\n\n12\nT7IPA_갭분석_01_IPA갭분석\nT7\n\n\n13\nT81_패널회귀_01_패널회귀분석보고서\nT8-1\n\n\n14\nT82_1_PSM_DT교육경험_01_보고서\nT8-2-1\n\n\n15\nT82_2_PSM_SF도입_01_보고서\nT8-2-2\n\n\n16\nT82_3_PSM_복수참여_01_보고서\nT8-2-3\n\n\n\n위치: docs/05_분석/분석결과정리/분석결과리포트/\n\n\n4. R 스크립트 (13개 프로젝트)\n\n\n\n\n\n\n\n\n트랙\nR 프로젝트\n위치\n\n\n\n\nT0\nT0_탐색적분석\ndocs/05_분석/Analysis/T0_탐색적분석/\n\n\nT1\nT1_회귀_교육효과\ndocs/05_분석/Analysis/T1_회귀_교육효과/\n\n\nT2\nT2_LPA_프로파일\ndocs/05_분석/Analysis/T2_LPA_프로파일/\n\n\nT3\nT3_QCA_조건조합\ndocs/05_분석/Analysis/T3_QCA_조건조합/\n\n\nT4\nT4_종단_복수참여\ndocs/05_분석/Analysis/T4_종단_복수참여/\n\n\nT5\nT5_텍스트_애로사항\ndocs/05_분석/Analysis/T5_텍스트_애로사항/\n\n\nT6\nT6_네트워크_기술수요\ndocs/05_분석/Analysis/T6_네트워크_기술수요/\n\n\nT7\nT7_IPA_갭분석\ndocs/05_분석/Analysis/T7_IPA_갭분석/\n\n\nT8-1\nT8_1_패널회귀\ndocs/05_분석/Analysis/T8_1_패널회귀/\n\n\nT8-2-1\nT8_2_1_PSM_DT교육경험\ndocs/05_분석/Analysis/T8_2_1_PSM_DT교육경험/\n\n\nT8-2-2\nT8_2_2_PSM_SF도입\ndocs/05_분석/Analysis/T8_2_2_PSM_SF도입/\n\n\nT8-2-3\nT8_2_3_PSM_복수참여\ndocs/05_분석/Analysis/T8_2_3_PSM_복수참여/\n\n\n\n총 R 코드: 4,362 lines\n\n\n5. 데이터 산출물\n\n\n\n\n\n\n\n\n산출물\n형식\n위치\n\n\n\n\nK-하이테크_통합데이터_v2\nXLSX\ndocs/01_기존자료/기존자료/04_output/\n\n\nK-하이테크_코드북_v2\nXLSX\ndocs/01_기존자료/기존자료/04_output/\n\n\n조사항목 변경사항\nMD\ndocs/01_기존자료/기존자료/02_data_processing_document/\n\n\n데이터 현황보고\nMD\ndocs/01_기존자료/기존자료/02_data_processing_document/\n\n\n\n\n\n6. 연구 설계 문서\n\n\n\n산출물\n위치\n\n\n\n\n아이디어노트 (유형별)\ndocs/02_아이디어/\n\n\n아이디어노트 (주제별, 7개 Theme)\ndocs/02_아이디어/\n\n\n변수추천\ndocs/02_아이디어/분석제안/\n\n\nLCA/LPA 적용가능성\ndocs/02_아이디어/분석제안/\n\n\nQCA 적용가능성\ndocs/02_아이디어/분석제안/\n\n\n복수참여기업 분석방안\ndocs/02_아이디어/분석제안/\n\n\n기타방법론 추천\ndocs/02_아이디어/분석제안/",
+    "crumbs": [
+      "산출물"
+    ]
+  },
+  {
+    "objectID": "pp_product.html#산출물-통계-요약",
+    "href": "pp_product.html#산출물-통계-요약",
+    "title": "산출물",
+    "section": "산출물 통계 요약",
+    "text": "산출물 통계 요약\n\n\n\n항목\n수량\n\n\n\n\nR 프로젝트\n13개\n\n\nR 코드 라인\n4,362 lines\n\n\nQMD 보고서\n16개\n\n\n렌더링 파일 (4포맷)\n64개\n\n\n종합 문서\n2개\n\n\n임시 보고서\n2개\n\n\n데이터 파일\n4개\n\n\n연구설계 문서\n7개+",
+    "crumbs": [
+      "산출물"
+    ]
+  }
+]

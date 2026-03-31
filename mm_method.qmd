@@ -1,0 +1,151 @@
+# 분석 방법 {.unnumbered}
+
+최종 업데이트: 2026-03-28
+
+## 분석 체계 개요
+
+본 연구는 13개 분석 트랙(T0~T8)을 통해 K-하이테크 플랫폼 데이터를 다각적으로 분석한다. 각 트랙은 독립적인 R 프로젝트로 구성되어 있으며, QMD 보고서를 통해 재현 가능한 형태로 결과를 산출한다.
+
+## T0: 탐색적 분석
+
+| 분석 | 도구 | 목적 |
+|------|------|------|
+| 기술통계 | R `psych::describe()` | 핵심 변수 분포 파악, DV 후보 선정 |
+| 상관분석 | R `cor.test()` | IV-DV 관계 탐색 |
+| 요인분석 (EFA) | R `psych::fa()` | DT인식 3항목 → 단일요인, 스마트시스템 7영역 → 단일요인 |
+| 집단비교 | R `t.test()`, `aov()` | DT추진부서/SF도입/교육경험별 교육효과 차이 |
+
+핵심 판정 기준:
+
+- KMO > .60, Bartlett p < .001
+- 요인부하 > .70, Cronbach alpha > .80
+- 효과크기: Cohen's d, eta-squared
+
+## T1: 회귀/요인 분석
+
+| 분석 | 도구 | 목적 |
+|------|------|------|
+| CFA (현업적용도 4구인) | R `lavaan` | CFI>.90, RMSEA<.08 |
+| 위계적 회귀 | R `lm` | 통제→DT인식→스마트시스템→인프라 순차 투입 |
+| 매개분석 | PROCESS M4 / `lavaan` | 조직환경 매개효과 (부트스트랩 5000회) |
+| 조절분석 | PROCESS M1 | 기업규모, DT추진부서 조절효과 |
+| 과정유형 비교 | R `aov`, Tukey HSD | 6개 과정유형별 교육효과 차이 |
+
+## T2: 잠재 프로파일 분석 (LPA)
+
+| 단계 | 분석 | 도구 | 기준 |
+|------|------|------|------|
+| 1 | LPA 1~5 class 비교 | R `tidyLPA` / `mclust` | BIC, AIC, BLRT, aLMR |
+| 2 | 최적 프로파일 결정 | | Entropy>.80, 최소 클래스>5% |
+| 3 | 프로파일 명명/특성 기술 | | 지표 평균 라인 그래프 |
+| 4 | BCH-proxy ANOVA | | 분류오차 보정 교육효과 비교 |
+| 5 | mclust 교차검증 | R `mclust` | tidyLPA 결과 검증 |
+
+지표변수 (6개): DT인식_산업분야이해, DT인식_대응방안, 직무전환_필요성, 스마트팩토리_현재수준, 교육훈련수준, 디지털업무자동화수준
+
+최적 솔루션: 3-class (Entropy = 0.846)
+
+## T3: 질적비교분석 (QCA)
+
+| 단계 | 분석 | 도구 | 기준 |
+|------|------|------|------|
+| 1 | Calibration (fuzzy 4 + crisp 2) | R `QCA` | 직접 캘리브레이션 |
+| 2 | 필요조건 분석 | | consistency > 0.9 |
+| 3 | 진리표 구성 → 충분조건 | | raw consistency > 0.80 |
+| 4 | 중간 해(Intermediate solution) | | PRI > 0.75, coverage > 0.25 |
+| 5 | 부정 분석 (~outcome) | | 비대칭 인과 확인 |
+
+Outcome: Q3_전후차이 (M=1.45, SD=1.21)
+
+Conditions: DT인식_합산, 스마트시스템_합산, 교육훈련수준, DT부서_보유(crisp), DT교육_있음(crisp)
+
+결과: 8개 충분 경로 도출 (등결과성 확인)
+
+## T4: 종단 분석 (복수참여 기업)
+
+| 단계 | 분석 | 대상 | 도구 |
+|------|------|------|------|
+| 1 | 대응표본 t-검정 / Wilcoxon | 48개 기업 | R `t.test(paired=TRUE)` |
+| 2 | 효과크기 산출 | | Cohen's d |
+| 3 | 변화량 예측 회귀 (Baseline Regression) | 48개 | R `lm` |
+| 4 | 변화 궤적 시각화 (Spaghetti Plot) | | R `ggplot2` |
+| 5 | 변화 패턴 유형화 | 14개 (3회+) | 질적 기술 |
+
+핵심: 교육훈련수준 평균 +0.77 향상 (d=0.60)
+
+## T5: 텍스트 분석 (STM)
+
+| 단계 | 분석 | 도구 | 기준 |
+|------|------|------|------|
+| 1 | 한국어 형태소 분석 | mecab-ko | 명사 추출 |
+| 2 | DTM 생성, 불용어 제거 | R `tidytext` | 도메인 불용어 사전 |
+| 3 | STM K=5~15 탐색 | R `stm` | semantic coherence + exclusivity |
+| 4 | 최적 K=7 선택, 주제 명명 | | 해석 가능성 |
+| 5 | Prevalence 공변량 | R `stm` | 11개 공변량 투입 |
+| 6 | LPA 프로파일별 토픽 차별화 | | T2 연계 |
+| 7 | 복수참여 기업 텍스트 변화 | | T4 연계 |
+| 8 | 다중 텍스트 컬럼별 독립 분석 | | DT애로사항, TO_BE, 성과상세, AS_IS |
+| 9 | Content covariate 효과 | | 토픽 내용에 대한 공변량 |
+| 10 | Sensitivity analysis | | 토픽 수(k) 변동 |
+
+공변량 (11개): 연도, 기업규모, DT대응수준, 교육훈련수준, SF도입, DT추진부서, DT교육경험, 업종, 스마트시스템 수준, DT인식 합산, 교육훈련 필요성
+
+## T6: 네트워크 분석
+
+| 단계 | 분석 | 도구 |
+|------|------|------|
+| 1 | 공동출현 행렬 | R `igraph` |
+| 2 | 네트워크 시각화 + 중심성 | R `ggraph`, `igraph` |
+| 3 | 커뮤니티 탐지 | Louvain Algorithm |
+| 4 | MCA (다중대응분석) | R `FactoMineR::MCA()` |
+| 5 | 기업규모별 기술수요 패턴 | R `ggplot2` |
+| 6 | 연관분석 (Association Rules) | R `arules` |
+
+분석 대상: 18개 노드 (DT기술 + DT기대효과 + DT필요교육), 이분형 복수응답
+
+## T7: IPA 갭분석
+
+| 단계 | 분석 | 도구 |
+|------|------|------|
+| 1 | IPA 4사분면 매트릭스 | R `ggplot2` scatter |
+| 2 | 스마트시스템 7영역 레이더차트 | R `fmsb` |
+| 3 | 연도별 오버레이 | R `ggplot2` |
+| 4 | 하위집단 IPA 비교 | R `ggplot2` facet |
+| 5 | Paired t-test (필요성 vs 수준) | R `t.test(paired=TRUE)` |
+
+핵심 갭: 교육필요성(M=4.36) vs 교육수준(M=2.52) = **1.84점 갭**
+
+## T8: 인과추론 분석
+
+### T8-1: 패널 회귀분석
+
+| 모형 | 방법 | 도구 |
+|------|------|------|
+| Pooled OLS | 클러스터 강건 표준오차 | R `lm`, `sandwich` |
+| Random Effects | GLS | R `plm` |
+| Fixed Effects | Within 추정 | R `plm` |
+| 모형 선택 | Hausman 검정 | R `plm::phtest()` |
+
+DV: 현업적용도_조직환경, Q3_차이
+
+### T8-2: 성향점수매칭 (PSM)
+
+3가지 처치 변수에 대해 독립적 PSM 분석을 수행한다.
+
+| PSM 유형 | 처치 변수 | 대조군 | 처치군 | 매칭 방법 |
+|----------|----------|--------|--------|----------|
+| T8-2-1 | DT교육경험 유무 | 없음 | 있음 | Nearest neighbor, caliper=0.2 |
+| T8-2-2 | 스마트팩토리 도입 | 미도입 | 도입 | Nearest neighbor, caliper=0.2 |
+| T8-2-3 | 복수참여 여부 | 1회 | 2회+ | Nearest neighbor, caliper=0.2 |
+
+공통 도구: R `MatchIt`, `cobalt` (균형 진단)
+
+## 분석 환경
+
+| 항목 | 사양 |
+|------|------|
+| R 버전 | 4.4+ |
+| 주요 패키지 | tidyverse, lavaan, tidyLPA, mclust, QCA, stm, igraph, FactoMineR, plm, MatchIt |
+| 보고서 형식 | Quarto (.qmd) → HTML/PDF/DOCX/MD (4포맷) |
+| R 프로젝트 | 13개 독립 프로젝트 |
+| 총 코드 라인 | 4,362 lines |

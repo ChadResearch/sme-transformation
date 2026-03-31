@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>분석 방법 – SME-Transformation: K-하이테크 플랫폼 연구</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./mm_data_collection_strategy.html" rel="next">
+<link href="./mm_methodology.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0960e032821937e4e6c58aa64053088b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SME-Transformation: K-하이테크 플랫폼 연구</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://drive.google.com/drive/folders/10BeaOMwS_kDT2bd16tTEk9W-ucbO7jDs"> <i class="bi bi-google" role="img" aria-label="Google Drive">
+</i> 
+<span class="menu-text">Google Drive</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ChadResearch/sme-transformation"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://github.com/ChadResearch/sme-transformation" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="./SME-Transformation--K-하이테크-플랫폼-연구.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="./SME-Transformation--K-하이테크-플랫폼-연구.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="./SME-Transformation--K-하이테크-플랫폼-연구.docx">
+              <i class="bi bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./mm_methodology.html">Methodology and Method</a></li><li class="breadcrumb-item"><a href="./mm_method.html">분석 방법</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">프로젝트 개요</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Research Logs</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rl_research_log.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">연구 로그</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rl_meeting_log.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Meeting Log</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rl_analysis_version_log.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">분석 버전 로그</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rl_draft_version_log.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Draft Version</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Research Note</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rn_ideas_and_thoughts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">아이디어 및 연구 주제</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rn_questions_and_answers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research Q &amp; A</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rn_procedures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Procedures</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Theoritical Framework</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tf_related_theories.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Related Theories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tf_relationship_between_theories.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Theortical Relationship</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tf_theoretical_framework.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Theoritical Framework</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Methodology and Method</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mm_methodology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Methdology</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mm_method.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">분석 방법</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mm_data_collection_strategy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Collection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mm_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">데이터</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Literature Review</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lr_search_incl_excl.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Searching and Inclusion &amp; Exclusion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lr_referencelist.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reference List</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lr_research_problem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reserach Problems</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lr_model_and_key_references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Key References</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lr_quotes_and_paraphrases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quotes and Paraphrases</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Analysis Results (1차: T0~T9)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ar_overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">분석 결과 개요</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ar_exploratory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">탐색적 분석 결과 (T0, T1, T7)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ar_lpa_qca.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LPA 및 QCA 분석 결과 (T2, T3)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ar_longitudinal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">종단 분석 결과 (T4)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ar_text_network.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">텍스트 및 네트워크 분석 결과 (T5, T6)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ar_causal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">인과추론 분석 결과 (T8)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Analysis Results (2차: T10~T21)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ar_causal_2nd.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2차 심화분석 결과 (T10~T21)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ar_synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">종합 해석 및 시사점</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pp_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">산출물</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">TOPICS</h2>
+   
+  <ul>
+  <li><a href="#분석-체계-개요" id="toc-분석-체계-개요" class="nav-link active" data-scroll-target="#분석-체계-개요">분석 체계 개요</a></li>
+  <li><a href="#t0-탐색적-분석" id="toc-t0-탐색적-분석" class="nav-link" data-scroll-target="#t0-탐색적-분석">T0: 탐색적 분석</a></li>
+  <li><a href="#t1-회귀요인-분석" id="toc-t1-회귀요인-분석" class="nav-link" data-scroll-target="#t1-회귀요인-분석">T1: 회귀/요인 분석</a></li>
+  <li><a href="#t2-잠재-프로파일-분석-lpa" id="toc-t2-잠재-프로파일-분석-lpa" class="nav-link" data-scroll-target="#t2-잠재-프로파일-분석-lpa">T2: 잠재 프로파일 분석 (LPA)</a></li>
+  <li><a href="#t3-질적비교분석-qca" id="toc-t3-질적비교분석-qca" class="nav-link" data-scroll-target="#t3-질적비교분석-qca">T3: 질적비교분석 (QCA)</a></li>
+  <li><a href="#t4-종단-분석-복수참여-기업" id="toc-t4-종단-분석-복수참여-기업" class="nav-link" data-scroll-target="#t4-종단-분석-복수참여-기업">T4: 종단 분석 (복수참여 기업)</a></li>
+  <li><a href="#t5-텍스트-분석-stm" id="toc-t5-텍스트-분석-stm" class="nav-link" data-scroll-target="#t5-텍스트-분석-stm">T5: 텍스트 분석 (STM)</a></li>
+  <li><a href="#t6-네트워크-분석" id="toc-t6-네트워크-분석" class="nav-link" data-scroll-target="#t6-네트워크-분석">T6: 네트워크 분석</a></li>
+  <li><a href="#t7-ipa-갭분석" id="toc-t7-ipa-갭분석" class="nav-link" data-scroll-target="#t7-ipa-갭분석">T7: IPA 갭분석</a></li>
+  <li><a href="#t8-인과추론-분석" id="toc-t8-인과추론-분석" class="nav-link" data-scroll-target="#t8-인과추론-분석">T8: 인과추론 분석</a>
+  <ul>
+  <li><a href="#t8-1-패널-회귀분석" id="toc-t8-1-패널-회귀분석" class="nav-link" data-scroll-target="#t8-1-패널-회귀분석">T8-1: 패널 회귀분석</a></li>
+  <li><a href="#t8-2-성향점수매칭-psm" id="toc-t8-2-성향점수매칭-psm" class="nav-link" data-scroll-target="#t8-2-성향점수매칭-psm">T8-2: 성향점수매칭 (PSM)</a></li>
+  </ul></li>
+  <li><a href="#분석-환경" id="toc-분석-환경" class="nav-link" data-scroll-target="#분석-환경">분석 환경</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ChadResearch/sme-transformation/edit/main/mm_method.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./mm_methodology.html">Methodology and Method</a></li><li class="breadcrumb-item"><a href="./mm_method.html">분석 방법</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">분석 방법</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>최종 업데이트: 2026-03-28</p>
+<section id="분석-체계-개요" class="level2">
+<h2 class="anchored" data-anchor-id="분석-체계-개요">분석 체계 개요</h2>
+<p>본 연구는 13개 분석 트랙(T0~T8)을 통해 K-하이테크 플랫폼 데이터를 다각적으로 분석한다. 각 트랙은 독립적인 R 프로젝트로 구성되어 있으며, QMD 보고서를 통해 재현 가능한 형태로 결과를 산출한다.</p>
+</section>
+<section id="t0-탐색적-분석" class="level2">
+<h2 class="anchored" data-anchor-id="t0-탐색적-분석">T0: 탐색적 분석</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>분석</th>
+<th>도구</th>
+<th>목적</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>기술통계</td>
+<td>R <code>psych::describe()</code></td>
+<td>핵심 변수 분포 파악, DV 후보 선정</td>
+</tr>
+<tr class="even">
+<td>상관분석</td>
+<td>R <code>cor.test()</code></td>
+<td>IV-DV 관계 탐색</td>
+</tr>
+<tr class="odd">
+<td>요인분석 (EFA)</td>
+<td>R <code>psych::fa()</code></td>
+<td>DT인식 3항목 → 단일요인, 스마트시스템 7영역 → 단일요인</td>
+</tr>
+<tr class="even">
+<td>집단비교</td>
+<td>R <code>t.test()</code>, <code>aov()</code></td>
+<td>DT추진부서/SF도입/교육경험별 교육효과 차이</td>
+</tr>
+</tbody>
+</table>
+<p>핵심 판정 기준:</p>
+<ul>
+<li>KMO &gt; .60, Bartlett p &lt; .001</li>
+<li>요인부하 &gt; .70, Cronbach alpha &gt; .80</li>
+<li>효과크기: Cohen’s d, eta-squared</li>
+</ul>
+</section>
+<section id="t1-회귀요인-분석" class="level2">
+<h2 class="anchored" data-anchor-id="t1-회귀요인-분석">T1: 회귀/요인 분석</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>분석</th>
+<th>도구</th>
+<th>목적</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CFA (현업적용도 4구인)</td>
+<td>R <code>lavaan</code></td>
+<td>CFI&gt;.90, RMSEA&lt;.08</td>
+</tr>
+<tr class="even">
+<td>위계적 회귀</td>
+<td>R <code>lm</code></td>
+<td>통제→DT인식→스마트시스템→인프라 순차 투입</td>
+</tr>
+<tr class="odd">
+<td>매개분석</td>
+<td>PROCESS M4 / <code>lavaan</code></td>
+<td>조직환경 매개효과 (부트스트랩 5000회)</td>
+</tr>
+<tr class="even">
+<td>조절분석</td>
+<td>PROCESS M1</td>
+<td>기업규모, DT추진부서 조절효과</td>
+</tr>
+<tr class="odd">
+<td>과정유형 비교</td>
+<td>R <code>aov</code>, Tukey HSD</td>
+<td>6개 과정유형별 교육효과 차이</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="t2-잠재-프로파일-분석-lpa" class="level2">
+<h2 class="anchored" data-anchor-id="t2-잠재-프로파일-분석-lpa">T2: 잠재 프로파일 분석 (LPA)</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>단계</th>
+<th>분석</th>
+<th>도구</th>
+<th>기준</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>LPA 1~5 class 비교</td>
+<td>R <code>tidyLPA</code> / <code>mclust</code></td>
+<td>BIC, AIC, BLRT, aLMR</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>최적 프로파일 결정</td>
+<td></td>
+<td>Entropy&gt;.80, 최소 클래스&gt;5%</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>프로파일 명명/특성 기술</td>
+<td></td>
+<td>지표 평균 라인 그래프</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>BCH-proxy ANOVA</td>
+<td></td>
+<td>분류오차 보정 교육효과 비교</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>mclust 교차검증</td>
+<td>R <code>mclust</code></td>
+<td>tidyLPA 결과 검증</td>
+</tr>
+</tbody>
+</table>
+<p>지표변수 (6개): DT인식_산업분야이해, DT인식_대응방안, 직무전환_필요성, 스마트팩토리_현재수준, 교육훈련수준, 디지털업무자동화수준</p>
+<p>최적 솔루션: 3-class (Entropy = 0.846)</p>
+</section>
+<section id="t3-질적비교분석-qca" class="level2">
+<h2 class="anchored" data-anchor-id="t3-질적비교분석-qca">T3: 질적비교분석 (QCA)</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>단계</th>
+<th>분석</th>
+<th>도구</th>
+<th>기준</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Calibration (fuzzy 4 + crisp 2)</td>
+<td>R <code>QCA</code></td>
+<td>직접 캘리브레이션</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>필요조건 분석</td>
+<td></td>
+<td>consistency &gt; 0.9</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>진리표 구성 → 충분조건</td>
+<td></td>
+<td>raw consistency &gt; 0.80</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>중간 해(Intermediate solution)</td>
+<td></td>
+<td>PRI &gt; 0.75, coverage &gt; 0.25</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>부정 분석 (~outcome)</td>
+<td></td>
+<td>비대칭 인과 확인</td>
+</tr>
+</tbody>
+</table>
+<p>Outcome: Q3_전후차이 (M=1.45, SD=1.21)</p>
+<p>Conditions: DT인식_합산, 스마트시스템_합산, 교육훈련수준, DT부서_보유(crisp), DT교육_있음(crisp)</p>
+<p>결과: 8개 충분 경로 도출 (등결과성 확인)</p>
+</section>
+<section id="t4-종단-분석-복수참여-기업" class="level2">
+<h2 class="anchored" data-anchor-id="t4-종단-분석-복수참여-기업">T4: 종단 분석 (복수참여 기업)</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>단계</th>
+<th>분석</th>
+<th>대상</th>
+<th>도구</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>대응표본 t-검정 / Wilcoxon</td>
+<td>48개 기업</td>
+<td>R <code>t.test(paired=TRUE)</code></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>효과크기 산출</td>
+<td></td>
+<td>Cohen’s d</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>변화량 예측 회귀 (Baseline Regression)</td>
+<td>48개</td>
+<td>R <code>lm</code></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>변화 궤적 시각화 (Spaghetti Plot)</td>
+<td></td>
+<td>R <code>ggplot2</code></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>변화 패턴 유형화</td>
+<td>14개 (3회+)</td>
+<td>질적 기술</td>
+</tr>
+</tbody>
+</table>
+<p>핵심: 교육훈련수준 평균 +0.77 향상 (d=0.60)</p>
+</section>
+<section id="t5-텍스트-분석-stm" class="level2">
+<h2 class="anchored" data-anchor-id="t5-텍스트-분석-stm">T5: 텍스트 분석 (STM)</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>단계</th>
+<th>분석</th>
+<th>도구</th>
+<th>기준</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>한국어 형태소 분석</td>
+<td>mecab-ko</td>
+<td>명사 추출</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>DTM 생성, 불용어 제거</td>
+<td>R <code>tidytext</code></td>
+<td>도메인 불용어 사전</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>STM K=5~15 탐색</td>
+<td>R <code>stm</code></td>
+<td>semantic coherence + exclusivity</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>최적 K=7 선택, 주제 명명</td>
+<td></td>
+<td>해석 가능성</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Prevalence 공변량</td>
+<td>R <code>stm</code></td>
+<td>11개 공변량 투입</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>LPA 프로파일별 토픽 차별화</td>
+<td></td>
+<td>T2 연계</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>복수참여 기업 텍스트 변화</td>
+<td></td>
+<td>T4 연계</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>다중 텍스트 컬럼별 독립 분석</td>
+<td></td>
+<td>DT애로사항, TO_BE, 성과상세, AS_IS</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Content covariate 효과</td>
+<td></td>
+<td>토픽 내용에 대한 공변량</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Sensitivity analysis</td>
+<td></td>
+<td>토픽 수(k) 변동</td>
+</tr>
+</tbody>
+</table>
+<p>공변량 (11개): 연도, 기업규모, DT대응수준, 교육훈련수준, SF도입, DT추진부서, DT교육경험, 업종, 스마트시스템 수준, DT인식 합산, 교육훈련 필요성</p>
+</section>
+<section id="t6-네트워크-분석" class="level2">
+<h2 class="anchored" data-anchor-id="t6-네트워크-분석">T6: 네트워크 분석</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>단계</th>
+<th>분석</th>
+<th>도구</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>공동출현 행렬</td>
+<td>R <code>igraph</code></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>네트워크 시각화 + 중심성</td>
+<td>R <code>ggraph</code>, <code>igraph</code></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>커뮤니티 탐지</td>
+<td>Louvain Algorithm</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>MCA (다중대응분석)</td>
+<td>R <code>FactoMineR::MCA()</code></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>기업규모별 기술수요 패턴</td>
+<td>R <code>ggplot2</code></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>연관분석 (Association Rules)</td>
+<td>R <code>arules</code></td>
+</tr>
+</tbody>
+</table>
+<p>분석 대상: 18개 노드 (DT기술 + DT기대효과 + DT필요교육), 이분형 복수응답</p>
+</section>
+<section id="t7-ipa-갭분석" class="level2">
+<h2 class="anchored" data-anchor-id="t7-ipa-갭분석">T7: IPA 갭분석</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>단계</th>
+<th>분석</th>
+<th>도구</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>IPA 4사분면 매트릭스</td>
+<td>R <code>ggplot2</code> scatter</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>스마트시스템 7영역 레이더차트</td>
+<td>R <code>fmsb</code></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>연도별 오버레이</td>
+<td>R <code>ggplot2</code></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>하위집단 IPA 비교</td>
+<td>R <code>ggplot2</code> facet</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Paired t-test (필요성 vs 수준)</td>
+<td>R <code>t.test(paired=TRUE)</code></td>
+</tr>
+</tbody>
+</table>
+<p>핵심 갭: 교육필요성(M=4.36) vs 교육수준(M=2.52) = <strong>1.84점 갭</strong></p>
+</section>
+<section id="t8-인과추론-분석" class="level2">
+<h2 class="anchored" data-anchor-id="t8-인과추론-분석">T8: 인과추론 분석</h2>
+<section id="t8-1-패널-회귀분석" class="level3">
+<h3 class="anchored" data-anchor-id="t8-1-패널-회귀분석">T8-1: 패널 회귀분석</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>모형</th>
+<th>방법</th>
+<th>도구</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pooled OLS</td>
+<td>클러스터 강건 표준오차</td>
+<td>R <code>lm</code>, <code>sandwich</code></td>
+</tr>
+<tr class="even">
+<td>Random Effects</td>
+<td>GLS</td>
+<td>R <code>plm</code></td>
+</tr>
+<tr class="odd">
+<td>Fixed Effects</td>
+<td>Within 추정</td>
+<td>R <code>plm</code></td>
+</tr>
+<tr class="even">
+<td>모형 선택</td>
+<td>Hausman 검정</td>
+<td>R <code>plm::phtest()</code></td>
+</tr>
+</tbody>
+</table>
+<p>DV: 현업적용도_조직환경, Q3_차이</p>
+</section>
+<section id="t8-2-성향점수매칭-psm" class="level3">
+<h3 class="anchored" data-anchor-id="t8-2-성향점수매칭-psm">T8-2: 성향점수매칭 (PSM)</h3>
+<p>3가지 처치 변수에 대해 독립적 PSM 분석을 수행한다.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>PSM 유형</th>
+<th>처치 변수</th>
+<th>대조군</th>
+<th>처치군</th>
+<th>매칭 방법</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>T8-2-1</td>
+<td>DT교육경험 유무</td>
+<td>없음</td>
+<td>있음</td>
+<td>Nearest neighbor, caliper=0.2</td>
+</tr>
+<tr class="even">
+<td>T8-2-2</td>
+<td>스마트팩토리 도입</td>
+<td>미도입</td>
+<td>도입</td>
+<td>Nearest neighbor, caliper=0.2</td>
+</tr>
+<tr class="odd">
+<td>T8-2-3</td>
+<td>복수참여 여부</td>
+<td>1회</td>
+<td>2회+</td>
+<td>Nearest neighbor, caliper=0.2</td>
+</tr>
+</tbody>
+</table>
+<p>공통 도구: R <code>MatchIt</code>, <code>cobalt</code> (균형 진단)</p>
+</section>
+</section>
+<section id="분석-환경" class="level2">
+<h2 class="anchored" data-anchor-id="분석-환경">분석 환경</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>항목</th>
+<th>사양</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R 버전</td>
+<td>4.4+</td>
+</tr>
+<tr class="even">
+<td>주요 패키지</td>
+<td>tidyverse, lavaan, tidyLPA, mclust, QCA, stm, igraph, FactoMineR, plm, MatchIt</td>
+</tr>
+<tr class="odd">
+<td>보고서 형식</td>
+<td>Quarto (.qmd) → HTML/PDF/DOCX/MD (4포맷)</td>
+</tr>
+<tr class="even">
+<td>R 프로젝트</td>
+<td>13개 독립 프로젝트</td>
+</tr>
+<tr class="odd">
+<td>총 코드 라인</td>
+<td>4,362 lines</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+</main> <!-- /main -->
+<div id="disqus_thread" style="margin-top: 2em;"></div>
+<script>
+var disqus_config = function () {
+  this.page.url = window.location.href;
+  this.page.identifier = window.location.pathname;
+};
+(function() {
+  var d = document, s = d.createElement('script');
+  s.src = 'https://chadchae.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./mm_methodology.html" class="pagination-link" aria-label="Methdology">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Methdology</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./mm_data_collection_strategy.html" class="pagination-link" aria-label="Data Collection">
+        <span class="nav-page-text">Data Collection</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Copyright 2025, Chungil Chae</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ChadResearch/sme-transformation/edit/main/mm_method.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
